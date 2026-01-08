@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:compare="http://www.eclipse.org/emf/compare" xmlns:org.nasdanika.drawio.model="ecore://nasdanika.org/core/drawio/model">
+  <compare:Comparison>
+    <matches left="/1" right="/2">
+      <submatches left="/1/@pages[id='JgvUYXC0AntkxyaoiZhc']" right="/2/@pages[id='test']">
+        <submatches left="/1/@pages[id='JgvUYXC0AntkxyaoiZhc']/@model" right="/2/@pages[id='test']/@model">
+          <submatches left="/1/@pages[id='JgvUYXC0AntkxyaoiZhc']/@model/@root" right="/2/@pages[id='test']/@model/@root">
+            <submatches left="/1/@pages[id='JgvUYXC0AntkxyaoiZhc']/@model/@root/@layers[id='1']" right="/2/@pages[id='test']/@model/@root/@layers[id='1']">
+              <submatches left="/1/@pages[id='JgvUYXC0AntkxyaoiZhc']/@model/@root/@layers[id='1']/@elements[id='dDwW2ZMxm6mPgMoV6q1l-1']" right="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='alice']">
+                <submatches left="/1/@pages[id='JgvUYXC0AntkxyaoiZhc']/@model/@root/@layers[id='1']/@elements[id='dDwW2ZMxm6mPgMoV6q1l-1']/@geometry" right="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='alice']/@geometry"/>
+                <submatches left="/1/@pages[id='JgvUYXC0AntkxyaoiZhc']/@model/@root/@layers[id='1']/@elements[id='dDwW2ZMxm6mPgMoV6q1l-1']/@markers.0" right="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='alice']/@markers.0">
+                  <differences xsi:type="compare:AttributeChange" kind="CHANGE">
+                    <attribute href="ecore://nasdanika.org/core/ncore#//Marker/position"/>
+                  </differences>
+                  <differences xsi:type="compare:AttributeChange" kind="CHANGE">
+                    <attribute href="ecore://nasdanika.org/core/ncore#//Marker/date"/>
+                  </differences>
+                </submatches>
+                <submatches left="/1/@pages[id='JgvUYXC0AntkxyaoiZhc']/@model/@root/@layers[id='1']/@elements[id='dDwW2ZMxm6mPgMoV6q1l-1']/@style.0" right="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='alice']/@style.0"/>
+                <submatches left="/1/@pages[id='JgvUYXC0AntkxyaoiZhc']/@model/@root/@layers[id='1']/@elements[id='dDwW2ZMxm6mPgMoV6q1l-1']/@style.1" right="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='alice']/@style.1"/>
+                <submatches left="/1/@pages[id='JgvUYXC0AntkxyaoiZhc']/@model/@root/@layers[id='1']/@elements[id='dDwW2ZMxm6mPgMoV6q1l-1']/@style.2" right="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='alice']/@style.2"/>
+                <submatches right="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='alice']/@properties.0"/>
+                <differences xsi:type="compare:ReferenceChange" kind="DELETE" value="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='alice']/@properties.0">
+                  <reference href="ecore://nasdanika.org/core/drawio/model#//ModelElement/properties"/>
+                </differences>
+                <differences xsi:type="compare:ReferenceChange" requiredBy="/0/@matches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.0/@differences.0" kind="DELETE" equivalence="/0/@equivalences.0" value="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='_iUdKlTEI7WyagxxRYI6-2']">
+                  <reference href="ecore://nasdanika.org/core/drawio/model#//Node/outgoing"/>
+                </differences>
+                <differences xsi:type="compare:AttributeChange" kind="CHANGE">
+                  <attribute href="ecore://nasdanika.org/core/ncore#//StringIdentity/id"/>
+                </differences>
+              </submatches>
+              <submatches left="/1/@pages[id='JgvUYXC0AntkxyaoiZhc']/@model/@root/@layers[id='1']/@markers.0" right="/2/@pages[id='test']/@model/@root/@layers[id='1']/@markers.0">
+                <differences xsi:type="compare:AttributeChange" kind="CHANGE">
+                  <attribute href="ecore://nasdanika.org/core/ncore#//Marker/position"/>
+                </differences>
+                <differences xsi:type="compare:AttributeChange" kind="CHANGE">
+                  <attribute href="ecore://nasdanika.org/core/ncore#//Marker/date"/>
+                </differences>
+              </submatches>
+              <submatches right="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='bob']">
+                <submatches right="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='bob']/@geometry"/>
+                <submatches right="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='bob']/@markers.0"/>
+                <submatches right="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='bob']/@properties.0"/>
+                <submatches right="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='bob']/@style.0"/>
+                <submatches right="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='bob']/@style.1"/>
+                <submatches right="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='bob']/@style.2"/>
+                <differences xsi:type="compare:ReferenceChange" requiredBy="/0/@matches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.0/@differences.1" kind="DELETE" value="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='bob']/@markers.0">
+                  <reference href="ecore://nasdanika.org/core/ncore#//Marked/markers"/>
+                </differences>
+                <differences xsi:type="compare:ReferenceChange" requiredBy="/0/@matches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.0/@differences.1" kind="DELETE" value="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='bob']/@properties.0">
+                  <reference href="ecore://nasdanika.org/core/drawio/model#//ModelElement/properties"/>
+                </differences>
+                <differences xsi:type="compare:ReferenceChange" requiredBy="/0/@matches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.0/@differences.1" kind="DELETE" value="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='bob']/@style.0">
+                  <reference href="ecore://nasdanika.org/core/drawio/model#//ModelElement/style"/>
+                </differences>
+                <differences xsi:type="compare:ReferenceChange" requiredBy="/0/@matches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.0/@differences.1" kind="DELETE" value="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='bob']/@style.1">
+                  <reference href="ecore://nasdanika.org/core/drawio/model#//ModelElement/style"/>
+                </differences>
+                <differences xsi:type="compare:ReferenceChange" requiredBy="/0/@matches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.0/@differences.1" kind="DELETE" value="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='bob']/@style.2">
+                  <reference href="ecore://nasdanika.org/core/drawio/model#//ModelElement/style"/>
+                </differences>
+                <differences xsi:type="compare:ReferenceChange" requiredBy="/0/@matches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.0/@differences.1" kind="DELETE" value="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='bob']/@geometry">
+                  <reference href="ecore://nasdanika.org/core/drawio/model#//LayerElement/geometry"/>
+                </differences>
+                <differences xsi:type="compare:ReferenceChange" requiredBy="/0/@matches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.0/@differences.0 /0/@matches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.0/@differences.1" kind="DELETE" equivalence="/0/@equivalences.1" value="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='_iUdKlTEI7WyagxxRYI6-2']">
+                  <reference href="ecore://nasdanika.org/core/drawio/model#//Node/incoming"/>
+                </differences>
+              </submatches>
+              <submatches right="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='_iUdKlTEI7WyagxxRYI6-2']">
+                <submatches right="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='_iUdKlTEI7WyagxxRYI6-2']/@markers.0"/>
+                <submatches right="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='_iUdKlTEI7WyagxxRYI6-2']/@style.0"/>
+                <submatches right="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='_iUdKlTEI7WyagxxRYI6-2']/@style.1"/>
+                <submatches right="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='_iUdKlTEI7WyagxxRYI6-2']/@style.2"/>
+                <submatches right="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='_iUdKlTEI7WyagxxRYI6-2']/@style.3"/>
+                <submatches right="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='_iUdKlTEI7WyagxxRYI6-2']/@style.4"/>
+                <differences xsi:type="compare:ReferenceChange" requiredBy="/0/@matches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.0/@differences.0" kind="DELETE" value="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='_iUdKlTEI7WyagxxRYI6-2']/@markers.0">
+                  <reference href="ecore://nasdanika.org/core/ncore#//Marked/markers"/>
+                </differences>
+                <differences xsi:type="compare:ReferenceChange" requiredBy="/0/@matches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.0/@differences.0" kind="DELETE" value="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='_iUdKlTEI7WyagxxRYI6-2']/@style.0">
+                  <reference href="ecore://nasdanika.org/core/drawio/model#//ModelElement/style"/>
+                </differences>
+                <differences xsi:type="compare:ReferenceChange" requiredBy="/0/@matches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.0/@differences.0" kind="DELETE" value="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='_iUdKlTEI7WyagxxRYI6-2']/@style.1">
+                  <reference href="ecore://nasdanika.org/core/drawio/model#//ModelElement/style"/>
+                </differences>
+                <differences xsi:type="compare:ReferenceChange" requiredBy="/0/@matches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.0/@differences.0" kind="DELETE" value="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='_iUdKlTEI7WyagxxRYI6-2']/@style.2">
+                  <reference href="ecore://nasdanika.org/core/drawio/model#//ModelElement/style"/>
+                </differences>
+                <differences xsi:type="compare:ReferenceChange" requiredBy="/0/@matches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.0/@differences.0" kind="DELETE" value="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='_iUdKlTEI7WyagxxRYI6-2']/@style.3">
+                  <reference href="ecore://nasdanika.org/core/drawio/model#//ModelElement/style"/>
+                </differences>
+                <differences xsi:type="compare:ReferenceChange" requiredBy="/0/@matches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.0/@differences.0" kind="DELETE" value="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='_iUdKlTEI7WyagxxRYI6-2']/@style.4">
+                  <reference href="ecore://nasdanika.org/core/drawio/model#//ModelElement/style"/>
+                </differences>
+                <differences xsi:type="compare:ReferenceChange" requiredBy="/0/@matches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.0/@differences.0" kind="CHANGE" equivalence="/0/@equivalences.0" value="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='alice']">
+                  <reference href="ecore://nasdanika.org/core/drawio/model#//Connection/source"/>
+                </differences>
+                <differences xsi:type="compare:ReferenceChange" requiredBy="/0/@matches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.0/@differences.1 /0/@matches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.0/@differences.0" kind="CHANGE" equivalence="/0/@equivalences.1" value="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='bob']">
+                  <reference href="ecore://nasdanika.org/core/drawio/model#//Connection/target"/>
+                </differences>
+              </submatches>
+              <differences xsi:type="compare:ReferenceChange" requires="/0/@matches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.0/@differences.1 /0/@matches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.2/@differences.6 /0/@matches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.3/@differences.0 /0/@matches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.3/@differences.1 /0/@matches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.3/@differences.2 /0/@matches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.3/@differences.3 /0/@matches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.3/@differences.4 /0/@matches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.3/@differences.5 /0/@matches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.3/@differences.6 /0/@matches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.3/@differences.7" kind="DELETE" value="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='_iUdKlTEI7WyagxxRYI6-2']">
+                <reference href="ecore://nasdanika.org/core/drawio/model#//Layer/elements"/>
+              </differences>
+              <differences xsi:type="compare:ReferenceChange" requires="/0/@matches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.3/@differences.7 /0/@matches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.2/@differences.0 /0/@matches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.2/@differences.1 /0/@matches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.2/@differences.2 /0/@matches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.2/@differences.3 /0/@matches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.2/@differences.4 /0/@matches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.2/@differences.5 /0/@matches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.2/@differences.6" kind="DELETE" value="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='bob']">
+                <reference href="ecore://nasdanika.org/core/drawio/model#//Layer/elements"/>
+              </differences>
+            </submatches>
+            <submatches left="/1/@pages[id='JgvUYXC0AntkxyaoiZhc']/@model/@root/@markers.0" right="/2/@pages[id='test']/@model/@root/@markers.0">
+              <differences xsi:type="compare:AttributeChange" kind="CHANGE">
+                <attribute href="ecore://nasdanika.org/core/ncore#//Marker/position"/>
+              </differences>
+              <differences xsi:type="compare:AttributeChange" kind="CHANGE">
+                <attribute href="ecore://nasdanika.org/core/ncore#//Marker/date"/>
+              </differences>
+            </submatches>
+            <submatches right="/2/@pages[id='test']/@model/@root/@properties.0"/>
+            <differences xsi:type="compare:ReferenceChange" kind="DELETE" value="/2/@pages[id='test']/@model/@root/@properties.0">
+              <reference href="ecore://nasdanika.org/core/drawio/model#//ModelElement/properties"/>
+            </differences>
+            <differences xsi:type="compare:AttributeChange" kind="CHANGE">
+              <attribute href="ecore://nasdanika.org/core/ncore#//StringIdentity/id"/>
+            </differences>
+          </submatches>
+        </submatches>
+        <submatches left="/1/@pages[id='JgvUYXC0AntkxyaoiZhc']/@markers.0" right="/2/@pages[id='test']/@markers.0">
+          <differences xsi:type="compare:AttributeChange" kind="CHANGE">
+            <attribute href="ecore://nasdanika.org/core/ncore#//Marker/position"/>
+          </differences>
+          <differences xsi:type="compare:AttributeChange" kind="CHANGE">
+            <attribute href="ecore://nasdanika.org/core/ncore#//Marker/date"/>
+          </differences>
+        </submatches>
+        <differences xsi:type="compare:AttributeChange" kind="CHANGE">
+          <attribute href="ecore://nasdanika.org/core/ncore#//StringIdentity/id"/>
+        </differences>
+      </submatches>
+      <submatches left="/1/@markers.0" right="/2/@markers.0">
+        <differences xsi:type="compare:AttributeChange" kind="CHANGE">
+          <attribute href="ecore://nasdanika.org/core/ncore#//Marker/date"/>
+        </differences>
+      </submatches>
+      <submatches right="/2/@pages[id='_sxePPFzvDYc-ANpQPmD']">
+        <submatches right="/2/@pages[id='_sxePPFzvDYc-ANpQPmD']/@model">
+          <submatches right="/2/@pages[id='_sxePPFzvDYc-ANpQPmD']/@model/@root">
+            <submatches right="/2/@pages[id='_sxePPFzvDYc-ANpQPmD']/@model/@root/@layers[id='1']">
+              <submatches right="/2/@pages[id='_sxePPFzvDYc-ANpQPmD']/@model/@root/@layers[id='1']/@markers.0"/>
+              <differences xsi:type="compare:ReferenceChange" requiredBy="/0/@matches.0/@submatches.2/@submatches.0/@submatches.0/@differences.1" kind="DELETE" value="/2/@pages[id='_sxePPFzvDYc-ANpQPmD']/@model/@root/@layers[id='1']/@markers.0">
+                <reference href="ecore://nasdanika.org/core/ncore#//Marked/markers"/>
+              </differences>
+            </submatches>
+            <submatches right="/2/@pages[id='_sxePPFzvDYc-ANpQPmD']/@model/@root/@markers.0"/>
+            <differences xsi:type="compare:ReferenceChange" requiredBy="/0/@matches.0/@submatches.2/@submatches.0/@differences.0" kind="DELETE" value="/2/@pages[id='_sxePPFzvDYc-ANpQPmD']/@model/@root/@markers.0">
+              <reference href="ecore://nasdanika.org/core/ncore#//Marked/markers"/>
+            </differences>
+            <differences xsi:type="compare:ReferenceChange" requires="/0/@matches.0/@submatches.2/@submatches.0/@submatches.0/@submatches.0/@differences.0" requiredBy="/0/@matches.0/@submatches.2/@submatches.0/@differences.0" kind="DELETE" value="/2/@pages[id='_sxePPFzvDYc-ANpQPmD']/@model/@root/@layers[id='1']">
+              <reference href="ecore://nasdanika.org/core/drawio/model#//Root/layers"/>
+            </differences>
+          </submatches>
+          <differences xsi:type="compare:ReferenceChange" requires="/0/@matches.0/@submatches.2/@submatches.0/@submatches.0/@differences.0 /0/@matches.0/@submatches.2/@submatches.0/@submatches.0/@differences.1" requiredBy="/0/@matches.0/@submatches.2/@differences.1" kind="DELETE" value="/2/@pages[id='_sxePPFzvDYc-ANpQPmD']/@model/@root">
+            <reference href="ecore://nasdanika.org/core/drawio/model#//Model/root"/>
+          </differences>
+        </submatches>
+        <submatches right="/2/@pages[id='_sxePPFzvDYc-ANpQPmD']/@markers.0"/>
+        <differences xsi:type="compare:ReferenceChange" requiredBy="/0/@matches.0/@differences.0" kind="DELETE" value="/2/@pages[id='_sxePPFzvDYc-ANpQPmD']/@markers.0">
+          <reference href="ecore://nasdanika.org/core/ncore#//Marked/markers"/>
+        </differences>
+        <differences xsi:type="compare:ReferenceChange" requires="/0/@matches.0/@submatches.2/@submatches.0/@differences.0" requiredBy="/0/@matches.0/@differences.0" kind="DELETE" value="/2/@pages[id='_sxePPFzvDYc-ANpQPmD']/@model">
+          <reference href="ecore://nasdanika.org/core/drawio/model#//Page/model"/>
+        </differences>
+      </submatches>
+      <differences xsi:type="compare:ReferenceChange" requires="/0/@matches.0/@submatches.2/@differences.0 /0/@matches.0/@submatches.2/@differences.1" kind="DELETE" value="/2/@pages[id='_sxePPFzvDYc-ANpQPmD']">
+        <reference href="ecore://nasdanika.org/core/drawio/model#//Document/pages"/>
+      </differences>
+      <differences xsi:type="compare:AttributeChange" kind="CHANGE">
+        <attribute href="ecore://nasdanika.org/core/drawio/model#//Document/source"/>
+      </differences>
+    </matches>
+    <equivalences differences="/0/@matches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.3/@differences.6 /0/@matches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.0/@differences.1"/>
+    <equivalences differences="/0/@matches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.3/@differences.7 /0/@matches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.0/@submatches.2/@differences.6"/>
+  </compare:Comparison>
+  <org.nasdanika.drawio.model:Document uri="git://5bfe5731bbdf10b742a3db53ca5e4dad0844732b/model/src/test/resources/org/nasdanika/models/compare/tests/test.drawio" source="data:drawio;base64,eyJkb2N1bWVudCI6IjxteGZpbGUgYWdlbnQ9XCJNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBkcmF3LmlvLzI4LjEuMiBDaHJvbWUvMTM4LjAuNzIwNC4yNDMgRWxlY3Ryb24vMzcuNC4wIFNhZmFyaS81MzcuMzZcIiBob3N0PVwiRWxlY3Ryb25cIiBwYWdlcz1cIjFcIiB2ZXJzaW9uPVwiMjguMS4yXCI%2BXHJcbiAgPGRpYWdyYW0gaWQ9XCJKZ3ZVWVhDMEFudGt4eWFvaVpoY1wiIG5hbWU9XCJUZXN0XCI%2BcFpOZFQ4TWdGSVovRFpjbWJhbk52SnpkbkRkTFRKYTR4RHRTam9VRVNxWE1kdjU2SVQzTTF1bmlSMUl1ZUhuT0I0ZTNoSlo2MkZqV2lxM2hvRWlXTUd0TjN4RzZJbG1XK3VXbHlqUU5WRzZtOFdIY1Vwb1hxQndSdUluTXMxRjhGbFJiZVM3czVCdWdtS0I2a0J6bUxXam14Q2dnMDdJYVprUVE3a0hXSXZhWkpoTjBWekYxenU4bGoya1gxMGgzZ25IVHoybzVZNVNUN2JRanVpYkppaVJMRXBqNVIwdHJqTHRFUkU0UEphZ3c4emlWc2Q3ZG4ySlAxN0xRdVArbjQ2dCtuejF0QjEzb2gzcHJIb3VYVkYxOVVRT2x6aDNqZkswNU5CeENtcFRRMjE1SUI3dVdWZUcwOTBiem1uQmE0ZkVZL2NyVUFhT1hTbnAwVk1FNkdINDI5TSszMllEUjRPd3hHQnJmclQ1SklibVlXS1hBZCs0LzdKREd0OGY2Qzl5aXgvUDhGN1AxR0k3M29tczg5cjF4TU12a1Q2WHJkdz09PFwvZGlhZ3JhbT5cclxuPFwvbXhmaWxlPiIsInVyaSI6ImdpdDovLzViZmU1NzMxYmJkZjEwYjc0MmEzZGI1M2NhNWU0ZGFkMDg0NDczMmIvbW9kZWwvc3JjL3Rlc3QvcmVzb3VyY2VzL29yZy9uYXNkYW5pa2EvbW9kZWxzL2NvbXBhcmUvdGVzdHMvdGVzdC5kcmF3aW8ifQ%3D%3D">
+    <markers location="git://5bfe5731bbdf10b742a3db53ca5e4dad0844732b/model/src/test/resources/org/nasdanika/models/compare/tests/test.drawio" date="2025-09-20T15:07:02.913-0400"/>
+    <pages id="JgvUYXC0AntkxyaoiZhc" name="Test">
+      <markers location="git://5bfe5731bbdf10b742a3db53ca5e4dad0844732b/model/src/test/resources/org/nasdanika/models/compare/tests/test.drawio" position="name: Test, id: JgvUYXC0AntkxyaoiZhc" date="2025-09-20T15:07:02.913-0400"/>
+      <model>
+        <root id="JgvUYXC0AntkxyaoiZhc" label="Test" visible="true">
+          <markers location="git://5bfe5731bbdf10b742a3db53ca5e4dad0844732b/model/src/test/resources/org/nasdanika/models/compare/tests/test.drawio" position="page-name: Test, page-id: JgvUYXC0AntkxyaoiZhc, label: Test, id:JgvUYXC0AntkxyaoiZhc" date="2025-09-20T15:07:02.905-0400"/>
+          <layers id="1" label="" visible="true">
+            <markers location="git://5bfe5731bbdf10b742a3db53ca5e4dad0844732b/model/src/test/resources/org/nasdanika/models/compare/tests/test.drawio" position="page-name: Test, page-id: JgvUYXC0AntkxyaoiZhc, id:1" date="2025-09-20T15:07:02.907-0400"/>
+            <elements xsi:type="org.nasdanika.drawio.model:Node" id="dDwW2ZMxm6mPgMoV6q1l-1" label="Alice" visible="true">
+              <markers location="git://5bfe5731bbdf10b742a3db53ca5e4dad0844732b/model/src/test/resources/org/nasdanika/models/compare/tests/test.drawio" position="page-name: Test, page-id: JgvUYXC0AntkxyaoiZhc, label: Alice, id:dDwW2ZMxm6mPgMoV6q1l-1" date="2025-09-20T15:07:02.910-0400"/>
+              <style key="rounded" value="1"/>
+              <style key="whiteSpace" value="wrap"/>
+              <style key="html" value="1"/>
+              <geometry x="80.0" y="440.0" width="120.0" height="60.0"/>
+            </elements>
+          </layers>
+        </root>
+      </model>
+    </pages>
+  </org.nasdanika.drawio.model:Document>
+  <org.nasdanika.drawio.model:Document uri="git://5bfe5731bbdf10b742a3db53ca5e4dad0844732b/model/src/test/resources/org/nasdanika/models/compare/tests/test.drawio" source="data:drawio;base64,eyJkb2N1bWVudCI6IjxteGZpbGUgYWdlbnQ9XCJNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBkcmF3LmlvLzI4LjEuMiBDaHJvbWUvMTM4LjAuNzIwNC4yNDMgRWxlY3Ryb24vMzcuNC4wIFNhZmFyaS81MzcuMzZcIiBob3N0PVwiRWxlY3Ryb25cIiBwYWdlcz1cIjJcIiB2ZXJzaW9uPVwiMjguMS4yXCI%2BXHJcbiAgPGRpYWdyYW0gaWQ9XCJ0ZXN0XCIgbmFtZT1cIlRlc3RcIj41VlZOVDhNd0RQMDFQU0oxN2RqZ3VDOWdBaTRNTkhGQzJXTGFvTFN1c295Mi9IclN6YUhOTnFEYkNRbXBsWnJYRnovTHowNjhjSlFVMTRwbDhUMXlrRjdnTTZVd1gzbmgyQXVDam5rTnRNUTBoYVYyTUY1c2wySFk3UkZTRXVIU2NsNVJjbWRUcE1RK01CTWZRS0JQNkZwd2NGTkltSTYzQUhFeUZvSERxSUFiRUZGczgrejREZXBzeWVRK2Z5NjREWHR4VHV4VnpEam1qcFpHbEZwa3pZekNpZWVQUFgvZ1ZSejNDVWNLVWYvRXNEeGN2RlZsRFh4YkZkS1RiR0dzMkNDL2FMbnhrbUlFMG5oNDFVYmMwRWkvQmRsRzluZjh5NWlDVkRlVGI2WDlGUTc0am9zMi9vdDQ0cmZ5Y1RMdHowc1dGY1hEODdSM0Z1eUwwcllWcnRXU0lqRXB6T2NXMXFWMXZWS2EwUktWampIQ2xNbEpqUTRWcmxNT2xiNUpjVmh6N2hBekEzWU0rQVphbDlTdmJLM1JRTEZPSlAybFptRXFBc3B1Z1lzakRid0dURUNyc2hwRTZyZm9DNnJDSzVCTWkzZW5hbTM5cHJLZjBwbU5vamE2YzJEUm8xdjBvSW0xVzdVWFZXSHpXR2lZWld6amNHNE9xME4xZndlbG9XZzNvaWZXUG00Y0x6MmExYncrUWpwMmZpbUxDMXJTdWRqdHRwNlFrenc3YXFEM0RLWldkZXdkSHQyKy84ZmNvUDhIM2QzUXZyOTlTTEp4M1llVFR3PT08XC9kaWFncmFtPlxyXG4gIDxkaWFncmFtIGlkPVwiX3N4ZVBQRnp2RFljLUFOcFFQbURcIiBuYW1lPVwiUGFnZS0xXCI%2BblpKUEQ0SWdGTUEvRFhlVWFuVnNhSFhwNUtFems1ZXlvYzhoVGV2VHB3bE41bXF0RFE3OCtMMC92RUVZci9xakVVMTVSZ21heEZRWWcxMUxXRUxpT0JyMmdIS3NhOGh0d0dRL0hSbGJiUnk1TzJIbm5TdHFHUVFWUmkxQnBoN2dJSFgwcGlTRUxWVENsaE53VGlNS0NJd1JuRUFWcGV0enU1NlpXUzcwVXI4bzZiTkdFWFY2V3dxSlhWRExJbXFybW5sSExDVTBJWFJQUmlkY2pCdEUrODN3WHRWejBPUE0vVlNtZW9lL1l0L3ZNbERibjlNeFBnaWYrMzFkQngrRXBVOD08XC9kaWFncmFtPlxyXG48XC9teGZpbGU%2BIiwidXJpIjoiZ2l0Oi8vNWJmZTU3MzFiYmRmMTBiNzQyYTNkYjUzY2E1ZTRkYWQwODQ0NzMyYi9tb2RlbC9zcmMvdGVzdC9yZXNvdXJjZXMvb3JnL25hc2RhbmlrYS9tb2RlbHMvY29tcGFyZS90ZXN0cy90ZXN0LmRyYXdpbyJ9">
+    <markers location="git://5bfe5731bbdf10b742a3db53ca5e4dad0844732b/model/src/test/resources/org/nasdanika/models/compare/tests/test.drawio" date="2025-09-20T15:07:02.976-0400"/>
+    <pages id="test" name="Test">
+      <markers location="git://5bfe5731bbdf10b742a3db53ca5e4dad0844732b/model/src/test/resources/org/nasdanika/models/compare/tests/test.drawio" position="name: Test, id: test" date="2025-09-20T15:07:02.975-0400"/>
+      <model>
+        <root id="test" label="Test" link="" tooltip="" visible="true">
+          <markers location="git://5bfe5731bbdf10b742a3db53ca5e4dad0844732b/model/src/test/resources/org/nasdanika/models/compare/tests/test.drawio" position="page-name: Test, page-id: test, label: Test, id:test" date="2025-09-20T15:07:02.967-0400"/>
+          <properties key="id" value="0"/>
+          <layers id="1" label="" visible="true">
+            <markers location="git://5bfe5731bbdf10b742a3db53ca5e4dad0844732b/model/src/test/resources/org/nasdanika/models/compare/tests/test.drawio" position="page-name: Test, page-id: test, id:1" date="2025-09-20T15:07:02.967-0400"/>
+            <elements xsi:type="org.nasdanika.drawio.model:Connection" id="_iUdKlTEI7WyagxxRYI6-2" label="" visible="true" source="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='alice']" target="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='bob']">
+              <markers location="git://5bfe5731bbdf10b742a3db53ca5e4dad0844732b/model/src/test/resources/org/nasdanika/models/compare/tests/test.drawio" position="page-name: Test, page-id: test, id:_iUdKlTEI7WyagxxRYI6-2" date="2025-09-20T15:07:02.973-0400"/>
+              <style key="edgeStyle" value="orthogonalEdgeStyle"/>
+              <style key="rounded" value="0"/>
+              <style key="orthogonalLoop" value="1"/>
+              <style key="jettySize" value="auto"/>
+              <style key="html" value="1"/>
+            </elements>
+            <elements xsi:type="org.nasdanika.drawio.model:Node" id="alice" label="Alice" link="" tooltip="" visible="true" outgoing="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='_iUdKlTEI7WyagxxRYI6-2']">
+              <markers location="git://5bfe5731bbdf10b742a3db53ca5e4dad0844732b/model/src/test/resources/org/nasdanika/models/compare/tests/test.drawio" position="page-name: Test, page-id: test, label: Alice, id:alice" date="2025-09-20T15:07:02.975-0400"/>
+              <properties key="id" value="alice"/>
+              <style key="rounded" value="1"/>
+              <style key="whiteSpace" value="wrap"/>
+              <style key="html" value="1"/>
+              <geometry x="80.0" y="440.0" width="120.0" height="60.0"/>
+            </elements>
+            <elements xsi:type="org.nasdanika.drawio.model:Node" id="bob" label="Bob" link="" tooltip="" visible="true" incoming="/2/@pages[id='test']/@model/@root/@layers[id='1']/@elements[id='_iUdKlTEI7WyagxxRYI6-2']">
+              <markers location="git://5bfe5731bbdf10b742a3db53ca5e4dad0844732b/model/src/test/resources/org/nasdanika/models/compare/tests/test.drawio" position="page-name: Test, page-id: test, label: Bob, id:bob" date="2025-09-20T15:07:02.975-0400"/>
+              <properties key="id" value="bob"/>
+              <style key="rounded" value="1"/>
+              <style key="whiteSpace" value="wrap"/>
+              <style key="html" value="1"/>
+              <geometry x="270.0" y="440.0" width="120.0" height="60.0"/>
+            </elements>
+          </layers>
+        </root>
+      </model>
+    </pages>
+    <pages id="_sxePPFzvDYc-ANpQPmD" name="Page-1">
+      <markers location="git://5bfe5731bbdf10b742a3db53ca5e4dad0844732b/model/src/test/resources/org/nasdanika/models/compare/tests/test.drawio" position="name: Page-1, id: _sxePPFzvDYc-ANpQPmD" date="2025-09-20T15:07:02.976-0400"/>
+      <model>
+        <root id="_sxePPFzvDYc-ANpQPmD" label="Page-1" visible="true">
+          <markers location="git://5bfe5731bbdf10b742a3db53ca5e4dad0844732b/model/src/test/resources/org/nasdanika/models/compare/tests/test.drawio" position="page-name: Page-1, page-id: _sxePPFzvDYc-ANpQPmD, label: Page-1, id:_sxePPFzvDYc-ANpQPmD" date="2025-09-20T15:07:02.975-0400"/>
+          <layers id="1" label="" visible="true">
+            <markers location="git://5bfe5731bbdf10b742a3db53ca5e4dad0844732b/model/src/test/resources/org/nasdanika/models/compare/tests/test.drawio" position="page-name: Page-1, page-id: _sxePPFzvDYc-ANpQPmD, id:1" date="2025-09-20T15:07:02.976-0400"/>
+          </layers>
+        </root>
+      </model>
+    </pages>
+  </org.nasdanika.drawio.model:Document>
+</xmi:XMI>

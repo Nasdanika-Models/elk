@@ -1,0 +1,134 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.nasdanika.models.compare</groupId>
+		<version>2025.12.0</version>
+		<artifactId>parent</artifactId>
+		<relativePath>..</relativePath>
+	</parent>
+	<artifactId>model</artifactId>
+	<packaging>jar</packaging>
+	<name>Eclipse EMF Compare Model 3.3.27</name>
+	<description>Eclipse EMF Compare Model 3.3.27 wrapped into a Maven jar/Java module to make it available in the Maven ecosystem</description>
+
+	<url>https://compare.models.nasdanika.org/</url>
+
+	<scm>
+		<url>https://github.com/Nasdanika-Models/compare</url>
+	</scm>
+
+	<build>
+        <resources>
+            <resource>
+                <directory>src/main/imported/src</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>myconfig.xml</include>
+                </includes>                
+            </resource>
+        </resources>
+	
+		<plugins>
+			<plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>build-helper-maven-plugin</artifactId>
+                <version>3.6.1</version>
+				<executions>
+					<execution>
+						<id>add-source</id>
+						<phase>generate-sources</phase>
+						<goals>
+							<goal>add-source</goal>
+						</goals>
+						<configuration>
+							<sources>
+								<source>${project.basedir}/src/main/imported/src</source>
+                                <source>${project.basedir}/src/main/imported/src-gen</source>
+							</sources>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>3.5.0</version>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+						<configuration>
+							<classifier>model</classifier>
+							<includes>
+								<include>model/**</include>
+							</includes>
+							<classesDirectory>${project.basedir}</classesDirectory>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>		
+			<plugin>
+				<groupId>org.jacoco</groupId>
+				<artifactId>jacoco-maven-plugin</artifactId>
+				<version>${jacoco.version}</version>
+				<executions>
+					<execution>
+						<id>default-prepare-agent</id>
+						<goals>
+							<goal>prepare-agent</goal>
+						</goals>
+					</execution>
+					<execution>
+						<id>report</id>
+						<phase>verify</phase>
+						<goals>
+							<goal>report</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+
+	<dependencies>	
+		<dependency>
+		    <groupId>org.eclipse.emf</groupId>
+		    <artifactId>org.eclipse.emf.ecore</artifactId>
+		    <version>2.41.0</version>
+		</dependency> 		
+        <dependency>
+            <groupId>org.eclipse.emf</groupId>
+            <artifactId>org.eclipse.emf.ecore.xmi</artifactId>
+            <version>2.39.0</version>
+        </dependency>       
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>33.5.0-jre</version>
+        </dependency>        
+        <dependency>
+            <groupId>org.nasdanika.core</groupId>
+            <artifactId>capability</artifactId>
+            <version>${core.version}</version>
+        </dependency>               
+
+        <!-- For POM and diagram compare testing -->
+        <!--        
+        <dependency>
+            <groupId>org.nasdanika.models.maven</groupId>
+            <artifactId>model</artifactId>
+            <version>2025.5.0</version>
+        </dependency>       
+        <dependency>
+            <groupId>org.nasdanika.core</groupId>
+            <artifactId>emf</artifactId>
+            <version>${core.version}</version>
+        </dependency>               
+        -->
+        
+	</dependencies>
+</project>

@@ -1,0 +1,242 @@
+<mxfile compressed="false" host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.2.9 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.2.9">
+  <diagram id="faab4438-09fa-45ba-9891-8661fd98c42d" name="Eclipse Layout Kernel">
+    <mxGraphModel dx="1934" dy="1589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="EMapPropertyHolder" link="references/eClassifiers/EMapPropertyHolder/index.html" id="be72b3fa-82f7-469e-8708-d9ecf1657c21">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="120" x="830.9429796544958" y="759.9958915661254" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="ElkEdgeSection" link="references/eClassifiers/ElkEdgeSection/index.html" id="48621533-1f7e-4526-afeb-ba4b7cec0402">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="120" x="1039.9951919134903" y="880.0086366327981" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="8d721802-f12d-4984-9286-1b12ce506854" edge="1" parent="1" source="48621533-1f7e-4526-afeb-ba4b7cec0402" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0" target="be72b3fa-82f7-469e-8708-d9ecf1657c21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1100" y="850" />
+              <mxPoint x="891" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <object label="IPropertyHolder" link="references/eClassifiers/IPropertyHolder/index.html" id="c02bf678-cde4-4d74-b5ed-2a9d0bd957c0">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="120" x="830.9376311446254" y="680.0036472376808" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="9b17feb0-451c-4022-83b3-fcf9fa16f07a" edge="1" parent="1" source="be72b3fa-82f7-469e-8708-d9ecf1657c21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0" target="c02bf678-cde4-4d74-b5ed-2a9d0bd957c0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="ElkPort" link="references/eClassifiers/ElkPort/index.html" id="b0cca40f-0d73-4d4e-84ff-522ce5cfbf0a">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="120" x="320.00061700912806" y="1350" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="PropertyValue" link="references/eClassifiers/PropertyValue/index.html" id="a09902a8-3891-45f2-b9c9-80b711050ac5">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="120" x="690" y="680" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="ElkPropertyToValueMapEntry" link="references/eClassifiers/ElkPropertyToValueMapEntry/index.html" id="f675905f-ebcb-4505-97cd-fc15716d27c5">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="178.11" x="550" y="760" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="properties" link="references/eClassifiers/EMapPropertyHolder/references/eStructuralFeatures/properties/index.html" id="6bca2c18-9bca-4b2d-9ba7-bdd0a28a3672">
+          <mxCell edge="1" parent="1" source="be72b3fa-82f7-469e-8708-d9ecf1657c21" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1" target="f675905f-ebcb-4505-97cd-fc15716d27c5">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="ElkLabel" link="references/eClassifiers/ElkLabel/index.html" id="2beb4181-25d1-4b4f-abea-be3c494a45b0">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="120" x="589.9937522043546" y="1080.004818730589" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="IProperty" link="references/eClassifiers/IProperty/index.html" id="0e411ab9-aa78-4427-94a4-81021f84d54b">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="120" x="550" y="680" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="ElkNode" link="references/eClassifiers/ElkNode/index.html" id="a0f04e2f-54bb-4eea-90fd-56380679faed">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="120" x="559.9977663954768" y="1349.9963782102702" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="ports" link="references/eClassifiers/ElkNode/references/eStructuralFeatures/ports/index.html" id="1b21313b-8074-46d9-aedd-071ca0dc6661">
+          <mxCell edge="1" parent="1" source="a0f04e2f-54bb-4eea-90fd-56380679faed" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" target="b0cca40f-0d73-4d4e-84ff-522ce5cfbf0a">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="parent" link="references/eClassifiers/ElkPort/references/eStructuralFeatures/parent/index.html" id="7c367e2f-d6a0-4893-941a-1f9416e5b40c">
+          <mxCell edge="1" parent="1" source="b0cca40f-0d73-4d4e-84ff-522ce5cfbf0a" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="a0f04e2f-54bb-4eea-90fd-56380679faed">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="ElkGraphElement" link="references/eClassifiers/ElkGraphElement/index.html" id="2b4dba10-1605-4ba5-a3ee-9f7917028a05">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="120" x="830.9460138009788" y="880.0039172398499" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="91c1c830-5214-440a-b883-dc58444eef70" edge="1" parent="1" source="2b4dba10-1605-4ba5-a3ee-9f7917028a05" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0" target="be72b3fa-82f7-469e-8708-d9ecf1657c21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="labels" link="references/eClassifiers/ElkGraphElement/references/eStructuralFeatures/labels/index.html" id="e0837bf0-8f97-4c0e-8ab6-de64397d23db">
+          <mxCell edge="1" parent="1" source="2b4dba10-1605-4ba5-a3ee-9f7917028a05" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" target="2beb4181-25d1-4b4f-abea-be3c494a45b0">
+            <mxGeometry relative="1" x="0.2958" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="parent" link="references/eClassifiers/ElkLabel/references/eStructuralFeatures/parent/index.html" id="75729420-45f8-441a-bd18-bc37c0d093c9">
+          <mxCell edge="1" parent="1" source="2beb4181-25d1-4b4f-abea-be3c494a45b0" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" target="2b4dba10-1605-4ba5-a3ee-9f7917028a05">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="740" y="1088" />
+                <mxPoint x="740" y="888" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="ElkShape" link="references/eClassifiers/ElkShape/index.html" id="c6ea8a6c-c737-463d-9abf-7a6d895d72d1">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="120" x="589.9971912954788" y="990.0040155564672" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="a918f836-b0ff-4dad-b081-70da31c66dd7" edge="1" parent="1" source="c6ea8a6c-c737-463d-9abf-7a6d895d72d1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;jumpStyle=arc;" target="2b4dba10-1605-4ba5-a3ee-9f7917028a05">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="49f65607-8e06-4e97-9da4-3740bbd18c6d" edge="1" parent="1" source="2beb4181-25d1-4b4f-abea-be3c494a45b0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0" target="c6ea8a6c-c737-463d-9abf-7a6d895d72d1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="ElkEdge" link="references/eClassifiers/ElkEdge/index.html" id="0535b80a-0ab2-4ca6-9f85-777366af26f5">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="120" x="830.9401850576796" y="1080.0060954951364" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="280ef089-ee6d-4e1a-90ad-7dbf9e463297" edge="1" parent="1" source="0535b80a-0ab2-4ca6-9f85-777366af26f5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0" target="2b4dba10-1605-4ba5-a3ee-9f7917028a05">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="containingNode" link="references/eClassifiers/ElkEdge/references/eStructuralFeatures/containingNode/index.html" id="2b98b869-dc44-4641-b3f6-d339be6472cc">
+          <mxCell edge="1" parent="1" source="0535b80a-0ab2-4ca6-9f85-777366af26f5" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="a0f04e2f-54bb-4eea-90fd-56380679faed">
+            <mxGeometry relative="1" x="0.5773" y="-8" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="sections" link="references/eClassifiers/ElkEdge/references/eStructuralFeatures/sections/index.html" id="26c8bcc0-ea93-4f08-a0a6-47806c196258">
+          <mxCell edge="1" parent="1" source="0535b80a-0ab2-4ca6-9f85-777366af26f5" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" target="48621533-1f7e-4526-afeb-ba4b7cec0402">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="containedEdges" link="references/eClassifiers/ElkNode/references/eStructuralFeatures/containedEdges/index.html" id="451b5167-ced3-4e96-9c43-2997328e25d8">
+          <mxCell edge="1" parent="1" source="a0f04e2f-54bb-4eea-90fd-56380679faed" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1;edgeStyle=orthogonalEdgeStyle;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" target="0535b80a-0ab2-4ca6-9f85-777366af26f5">
+            <mxGeometry relative="1" x="-0.1579" y="-7" as="geometry">
+              <mxPoint x="-7" y="7" as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="parent" link="references/eClassifiers/ElkEdgeSection/references/eStructuralFeatures/parent/index.html" id="c317206b-6af3-451f-bba9-06355701cc41">
+          <mxCell edge="1" parent="1" source="48621533-1f7e-4526-afeb-ba4b7cec0402" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" target="0535b80a-0ab2-4ca6-9f85-777366af26f5">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="ElkConnectableShape" link="references/eClassifiers/ElkConnectableShape/index.html" id="cc0610b4-c834-469e-a220-7b89f2329854">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="120" x="439.9960553823488" y="1244.9965523116648" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="dec3b7de-c611-400f-82c8-d2c3b38efd20" edge="1" parent="1" source="cc0610b4-c834-469e-a220-7b89f2329854" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0" target="c6ea8a6c-c737-463d-9abf-7a6d895d72d1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="1050" />
+              <mxPoint x="650" y="1050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <object label="outgoingEdges" link="references/eClassifiers/ElkConnectableShape/references/eStructuralFeatures/outgoingEdges/index.html" id="f5039aed-0e47-453d-9d0f-235f7080f605">
+          <mxCell edge="1" parent="1" source="cc0610b4-c834-469e-a220-7b89f2329854" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1;edgeStyle=orthogonalEdgeStyle;" target="0535b80a-0ab2-4ca6-9f85-777366af26f5">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="540" y="1170" />
+                <mxPoint x="850" y="1170" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="incomingEdges" link="references/eClassifiers/ElkConnectableShape/references/eStructuralFeatures/incomingEdges/index.html" id="f564545b-2bcd-490c-b31d-6d325186777a">
+          <mxCell edge="1" parent="1" source="cc0610b4-c834-469e-a220-7b89f2329854" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1;edgeStyle=orthogonalEdgeStyle;" target="0535b80a-0ab2-4ca6-9f85-777366af26f5">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="550" y="1190" />
+                <mxPoint x="870" y="1190" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="sources" link="references/eClassifiers/ElkEdge/references/eStructuralFeatures/sources/index.html" id="872e38bb-25f7-45d1-9ac1-12adcdd30637">
+          <mxCell edge="1" parent="1" source="0535b80a-0ab2-4ca6-9f85-777366af26f5" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" target="cc0610b4-c834-469e-a220-7b89f2329854">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="820" y="1103" />
+                <mxPoint x="820" y="1150" />
+                <mxPoint x="530" y="1150" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="targets" link="references/eClassifiers/ElkEdge/references/eStructuralFeatures/targets/index.html" id="f0c301f2-4d95-490c-88b6-41fb3f0b2c74">
+          <mxCell edge="1" parent="1" source="0535b80a-0ab2-4ca6-9f85-777366af26f5" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" target="cc0610b4-c834-469e-a220-7b89f2329854">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="800" y="1088" />
+                <mxPoint x="800" y="1130" />
+                <mxPoint x="520" y="1130" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="9e1f7878-ccfd-4444-add0-5a2c6cbee80c" edge="1" parent="1" source="a0f04e2f-54bb-4eea-90fd-56380679faed" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="cc0610b4-c834-469e-a220-7b89f2329854">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b3e88b90-f72f-43fb-83a8-eb913acb24c5" edge="1" parent="1" source="b0cca40f-0d73-4d4e-84ff-522ce5cfbf0a" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="cc0610b4-c834-469e-a220-7b89f2329854">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="outgoingShape" link="references/eClassifiers/ElkEdgeSection/references/eStructuralFeatures/outgoingShape/index.html" id="10c58905-d91d-43dc-ad3a-a77e0491f0ef">
+          <mxCell edge="1" parent="1" source="48621533-1f7e-4526-afeb-ba4b7cec0402" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;jumpStyle=arc;" target="cc0610b4-c834-469e-a220-7b89f2329854">
+            <mxGeometry relative="1" x="0.0101" y="-13" as="geometry">
+              <mxPoint as="offset" />
+              <Array as="points">
+                <mxPoint x="1180" y="903" />
+                <mxPoint x="1180" y="1253" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="incomingShape" link="references/eClassifiers/ElkEdgeSection/references/eStructuralFeatures/incomingShape/index.html" id="59a347a5-bfdb-4f5c-983b-679bb02b78ae">
+          <mxCell edge="1" parent="1" source="48621533-1f7e-4526-afeb-ba4b7cec0402" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;jumpStyle=arc;" target="cc0610b4-c834-469e-a220-7b89f2329854">
+            <mxGeometry relative="1" y="12" as="geometry">
+              <mxPoint as="offset" />
+              <Array as="points">
+                <mxPoint x="1200" y="888" />
+                <mxPoint x="1200" y="1268" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="ElkBendPoint" link="references/eClassifiers/ElkBendPoint/index.html" id="427489d6-8c39-4b22-b973-38a8f656b2b9">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="120" x="939.998714418178" y="969.9961408350883" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="bendPoints" link="references/eClassifiers/ElkEdgeSection/references/eStructuralFeatures/bendPoints/index.html" id="ef4b4536-50ab-499c-bf1a-7f25979f0dc2">
+          <mxCell edge="1" parent="1" source="48621533-1f7e-4526-afeb-ba4b7cec0402" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" target="427489d6-8c39-4b22-b973-38a8f656b2b9">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
