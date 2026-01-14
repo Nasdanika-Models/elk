@@ -1,4 +1,4 @@
-package org.nasdanika.models.compare.ecore.tests;
+package org.nasdanika.models.elk.ecore.tests;
 
 import java.io.File;
 import java.io.IOException;
