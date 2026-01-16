@@ -163,7 +163,7 @@
 	</dependencies>
 
 	<modules>
-		<!--<module>model</module>-->
+		<module>drawio</module>
 		<module>ecore</module>
 	</modules>
 

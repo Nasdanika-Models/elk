@@ -1,0 +1,187 @@
+<mxfile compressed="false" pages="1" type="device">
+    <diagram id="089cf519-924d-4f74-a0a5-0b81c1236fc4" name="Eclipse Layout Kernel">
+        <mxGraphModel arrows="1" connect="1" fold="1" grid="1" gridSize="10" guides="1" math="0" page="1" pageScale="1" shadow="0" tooltips="1">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <object id="d918b668-6aed-4143-97c0-8a5741a59f96" label="ElkGraphElement" link="references/eClassifiers/ElkGraphElement/index.html">
+                    <mxCell parent="1" vertex="1">
+                        <mxGeometry as="geometry" height="30.0" width="120.0" x="933.6767685209145" y="811.4734360616678"/>
+                    </mxCell>
+                </object>
+                <object id="7b626b6b-3f74-43fe-bc94-6667eabde2b1" label="ElkShape" link="references/eClassifiers/ElkShape/index.html">
+                    <mxCell parent="1" vertex="1">
+                        <mxGeometry as="geometry" height="30.0" width="120.0" x="1168.612520374416" y="887.283119394579"/>
+                    </mxCell>
+                </object>
+                <mxCell edge="1" id="42781384-7b7e-447f-a322-64edaf3a331b" parent="1" source="7b626b6b-3f74-43fe-bc94-6667eabde2b1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;exitX=0.5;exitDx=0.0;exitY=0.0;exitDy=0.0;entryX=0.5;entryDx=0.0;entryY=1.0;entryDy=0.0" target="d918b668-6aed-4143-97c0-8a5741a59f96">
+                    <mxGeometry as="geometry" relative="1"/>
+                </mxCell>
+                <object id="607302cf-128f-4901-a31a-ee3c82b29f6e" label="EMapPropertyHolder" link="references/eClassifiers/EMapPropertyHolder/index.html">
+                    <mxCell parent="1" vertex="1">
+                        <mxGeometry as="geometry" height="30.0" width="120.0" x="675.3777547127225" y="668.7411762328334"/>
+                    </mxCell>
+                </object>
+                <mxCell edge="1" id="08502df3-af0d-4f5a-86ca-9ca41766c662" parent="1" source="d918b668-6aed-4143-97c0-8a5741a59f96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;exitX=0.5;exitDx=0.0;exitY=0.0;exitDy=0.0;entryX=0.5;entryDx=0.0;entryY=1.0;entryDy=0.0" target="607302cf-128f-4901-a31a-ee3c82b29f6e">
+                    <mxGeometry as="geometry" relative="1"/>
+                </mxCell>
+                <object id="b1f50d74-2fb7-463b-9af4-7aad1e41fd0c" label="ElkNode" link="references/eClassifiers/ElkNode/index.html">
+                    <mxCell parent="1" vertex="1">
+                        <mxGeometry as="geometry" height="30.0" width="120.0" x="1320.135478866855" y="321.5224899620715"/>
+                    </mxCell>
+                </object>
+                <object id="a0a9f860-ddb2-4411-a571-6c5ee6db07ab" label="PropertyValue" link="references/eClassifiers/PropertyValue/index.html">
+                    <mxCell parent="1" vertex="1">
+                        <mxGeometry as="geometry" height="30.0" width="120.0" y="1080.0"/>
+                    </mxCell>
+                </object>
+                <object id="3a36f3a8-a5bf-43a4-9a54-7b3cdec385eb" label="ElkConnectableShape" link="references/eClassifiers/ElkConnectableShape/index.html">
+                    <mxCell parent="1" vertex="1">
+                        <mxGeometry as="geometry" height="30.0" width="120.0" x="1314.9417633157245" y="558.1525034809634"/>
+                    </mxCell>
+                </object>
+                <mxCell edge="1" id="7afd21c5-7138-426e-9296-c42579382089" parent="1" source="3a36f3a8-a5bf-43a4-9a54-7b3cdec385eb" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;exitX=0.5;exitDx=0.0;exitY=0.0;exitDy=0.0;entryX=0.5;entryDx=0.0;entryY=1.0;entryDy=0.0" target="7b626b6b-3f74-43fe-bc94-6667eabde2b1">
+                    <mxGeometry as="geometry" relative="1"/>
+                </mxCell>
+                <mxCell edge="1" id="503bfbd6-29b4-4ed0-95f1-b2d4682dda0e" parent="1" source="b1f50d74-2fb7-463b-9af4-7aad1e41fd0c" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;exitX=0.5;exitDx=0.0;exitY=0.0;exitDy=0.0;entryX=0.5;entryDx=0.0;entryY=1.0;entryDy=0.0" target="3a36f3a8-a5bf-43a4-9a54-7b3cdec385eb">
+                    <mxGeometry as="geometry" relative="1"/>
+                </mxCell>
+                <object id="534d1ba3-d9ba-43af-bd48-d56ec0034e5f" label="ElkPropertyToValueMapEntry" link="references/eClassifiers/ElkPropertyToValueMapEntry/index.html">
+                    <mxCell parent="1" vertex="1">
+                        <mxGeometry as="geometry" height="30.0" width="130.0" x="416.1178510555208" y="468.70174057636495"/>
+                    </mxCell>
+                </object>
+                <object id="e2f0bc1b-8507-4aff-93e0-f340c246242a" label="properties" link="references/eClassifiers/EMapPropertyHolder/references/eStructuralFeatures/properties/index.html">
+                    <mxCell edge="1" parent="1" source="607302cf-128f-4901-a31a-ee3c82b29f6e" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1" target="534d1ba3-d9ba-43af-bd48-d56ec0034e5f">
+                        <mxGeometry as="geometry" relative="1"/>
+                    </mxCell>
+                </object>
+                <object id="67ec6e92-5ab3-4100-b36e-dc4711b521eb" label="IPropertyHolder" link="references/eClassifiers/IPropertyHolder/index.html">
+                    <mxCell parent="1" vertex="1">
+                        <mxGeometry as="geometry" height="30.0" width="120.0" x="373.6167399397888" y="750.8268107128356"/>
+                    </mxCell>
+                </object>
+                <mxCell edge="1" id="dca0819f-9454-4356-a89c-17e18a3f95cc" parent="1" source="607302cf-128f-4901-a31a-ee3c82b29f6e" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;exitX=0.5;exitDx=0.0;exitY=0.0;exitDy=0.0;entryX=0.5;entryDx=0.0;entryY=1.0;entryDy=0.0" target="67ec6e92-5ab3-4100-b36e-dc4711b521eb">
+                    <mxGeometry as="geometry" relative="1"/>
+                </mxCell>
+                <object id="231cdeba-d5f8-4698-a98f-6b8a04d0a837" label="ElkEdge" link="references/eClassifiers/ElkEdge/index.html">
+                    <mxCell parent="1" vertex="1">
+                        <mxGeometry as="geometry" height="30.0" width="120.0" x="1115.6024813122033" y="515.8163888821028"/>
+                    </mxCell>
+                </object>
+                <mxCell edge="1" id="ced545e9-b94a-439a-85a5-ee352f085a1f" parent="1" source="231cdeba-d5f8-4698-a98f-6b8a04d0a837" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;exitX=0.5;exitDx=0.0;exitY=0.0;exitDy=0.0;entryX=0.5;entryDx=0.0;entryY=1.0;entryDy=0.0" target="d918b668-6aed-4143-97c0-8a5741a59f96">
+                    <mxGeometry as="geometry" relative="1"/>
+                </mxCell>
+                <object id="59ba8589-57a1-4530-a551-0d5bc24fadb5" label="containingNode" link="references/eClassifiers/ElkEdge/references/eStructuralFeatures/containingNode/index.html">
+                    <mxCell edge="1" parent="1" source="231cdeba-d5f8-4698-a98f-6b8a04d0a837" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1" target="b1f50d74-2fb7-463b-9af4-7aad1e41fd0c">
+                        <mxGeometry as="geometry" relative="1"/>
+                    </mxCell>
+                </object>
+                <object id="a32b6790-9816-4747-b283-d902975d3adb" label="sources" link="references/eClassifiers/ElkEdge/references/eStructuralFeatures/sources/index.html">
+                    <mxCell edge="1" parent="1" source="231cdeba-d5f8-4698-a98f-6b8a04d0a837" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1" target="3a36f3a8-a5bf-43a4-9a54-7b3cdec385eb">
+                        <mxGeometry as="geometry" relative="1"/>
+                    </mxCell>
+                </object>
+                <object id="92a7c11d-e7ed-422d-81ed-be911dcd4c87" label="targets" link="references/eClassifiers/ElkEdge/references/eStructuralFeatures/targets/index.html">
+                    <mxCell edge="1" parent="1" source="231cdeba-d5f8-4698-a98f-6b8a04d0a837" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1" target="3a36f3a8-a5bf-43a4-9a54-7b3cdec385eb">
+                        <mxGeometry as="geometry" relative="1"/>
+                    </mxCell>
+                </object>
+                <object id="6d06419d-99fc-4e81-8977-8fec76232930" label="outgoingEdges" link="references/eClassifiers/ElkConnectableShape/references/eStructuralFeatures/outgoingEdges/index.html">
+                    <mxCell edge="1" parent="1" source="3a36f3a8-a5bf-43a4-9a54-7b3cdec385eb" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1" target="231cdeba-d5f8-4698-a98f-6b8a04d0a837">
+                        <mxGeometry as="geometry" relative="1"/>
+                    </mxCell>
+                </object>
+                <object id="2346c83b-0cc1-46d7-a457-7678edaebc83" label="incomingEdges" link="references/eClassifiers/ElkConnectableShape/references/eStructuralFeatures/incomingEdges/index.html">
+                    <mxCell edge="1" parent="1" source="3a36f3a8-a5bf-43a4-9a54-7b3cdec385eb" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1" target="231cdeba-d5f8-4698-a98f-6b8a04d0a837">
+                        <mxGeometry as="geometry" relative="1"/>
+                    </mxCell>
+                </object>
+                <object id="436c2c71-5e2f-4935-9f1c-273de6e46d3e" label="containedEdges" link="references/eClassifiers/ElkNode/references/eStructuralFeatures/containedEdges/index.html">
+                    <mxCell edge="1" parent="1" source="b1f50d74-2fb7-463b-9af4-7aad1e41fd0c" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1" target="231cdeba-d5f8-4698-a98f-6b8a04d0a837">
+                        <mxGeometry as="geometry" relative="1"/>
+                    </mxCell>
+                </object>
+                <object id="e4f6c455-2793-4e76-aebc-8bc83d82c39f" label="IProperty" link="references/eClassifiers/IProperty/index.html">
+                    <mxCell parent="1" vertex="1">
+                        <mxGeometry as="geometry" height="30.0" width="120.0" x="1920.0"/>
+                    </mxCell>
+                </object>
+                <object id="d3accc38-cc08-4839-a009-116dc6561157" label="ElkLabel" link="references/eClassifiers/ElkLabel/index.html">
+                    <mxCell parent="1" vertex="1">
+                        <mxGeometry as="geometry" height="30.0" width="120.0" x="1016.450077847817" y="1080.0"/>
+                    </mxCell>
+                </object>
+                <object id="c24b3eb7-c110-487b-8a5f-ec48f1bad2ae" label="parent" link="references/eClassifiers/ElkLabel/references/eStructuralFeatures/parent/index.html">
+                    <mxCell edge="1" parent="1" source="d3accc38-cc08-4839-a009-116dc6561157" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1" target="d918b668-6aed-4143-97c0-8a5741a59f96">
+                        <mxGeometry as="geometry" relative="1"/>
+                    </mxCell>
+                </object>
+                <mxCell edge="1" id="8f6556ad-ac2d-4418-b2a8-a21936f9afc8" parent="1" source="d3accc38-cc08-4839-a009-116dc6561157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;exitX=0.5;exitDx=0.0;exitY=0.0;exitDy=0.0;entryX=0.5;entryDx=0.0;entryY=1.0;entryDy=0.0" target="7b626b6b-3f74-43fe-bc94-6667eabde2b1">
+                    <mxGeometry as="geometry" relative="1"/>
+                </mxCell>
+                <object id="509e56c3-1a0f-4ac4-86af-1de612d4d3a2" label="labels" link="references/eClassifiers/ElkGraphElement/references/eStructuralFeatures/labels/index.html">
+                    <mxCell edge="1" parent="1" source="d918b668-6aed-4143-97c0-8a5741a59f96" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1" target="d3accc38-cc08-4839-a009-116dc6561157">
+                        <mxGeometry as="geometry" relative="1"/>
+                    </mxCell>
+                </object>
+                <object id="af3cbfc6-d5c5-4420-92a6-5e01b63046ec" label="ElkBendPoint" link="references/eClassifiers/ElkBendPoint/index.html">
+                    <mxCell parent="1" vertex="1">
+                        <mxGeometry as="geometry" height="30.0" width="120.0" x="1398.4498728202313" y="888.2819503490892"/>
+                    </mxCell>
+                </object>
+                <object id="de1a82bf-8ca9-4bc6-82f1-ac95e0a43443" label="ElkEdgeSection" link="references/eClassifiers/ElkEdgeSection/index.html">
+                    <mxCell parent="1" vertex="1">
+                        <mxGeometry as="geometry" height="30.0" width="120.0" x="1087.5774089698762" y="689.576077856693"/>
+                    </mxCell>
+                </object>
+                <object id="e5435b79-0817-4b9b-8af0-7ad09e2eda33" label="bendPoints" link="references/eClassifiers/ElkEdgeSection/references/eStructuralFeatures/bendPoints/index.html">
+                    <mxCell edge="1" parent="1" source="de1a82bf-8ca9-4bc6-82f1-ac95e0a43443" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1" target="af3cbfc6-d5c5-4420-92a6-5e01b63046ec">
+                        <mxGeometry as="geometry" relative="1"/>
+                    </mxCell>
+                </object>
+                <mxCell edge="1" id="dc06b849-e8b2-4288-8d32-b1a747345c22" parent="1" source="de1a82bf-8ca9-4bc6-82f1-ac95e0a43443" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;exitX=0.5;exitDx=0.0;exitY=0.0;exitDy=0.0;entryX=0.5;entryDx=0.0;entryY=1.0;entryDy=0.0" target="607302cf-128f-4901-a31a-ee3c82b29f6e">
+                    <mxGeometry as="geometry" relative="1"/>
+                </mxCell>
+                <object id="7dd8d90a-0c3a-41ac-8043-659726b2a45f" label="parent" link="references/eClassifiers/ElkEdgeSection/references/eStructuralFeatures/parent/index.html">
+                    <mxCell edge="1" parent="1" source="de1a82bf-8ca9-4bc6-82f1-ac95e0a43443" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1" target="231cdeba-d5f8-4698-a98f-6b8a04d0a837">
+                        <mxGeometry as="geometry" relative="1"/>
+                    </mxCell>
+                </object>
+                <object id="9a993a4f-6421-4c2d-84d8-84b0709e3d61" label="outgoingShape" link="references/eClassifiers/ElkEdgeSection/references/eStructuralFeatures/outgoingShape/index.html">
+                    <mxCell edge="1" parent="1" source="de1a82bf-8ca9-4bc6-82f1-ac95e0a43443" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1" target="3a36f3a8-a5bf-43a4-9a54-7b3cdec385eb">
+                        <mxGeometry as="geometry" relative="1"/>
+                    </mxCell>
+                </object>
+                <object id="eb116008-4ae7-4d36-9741-f678914ce363" label="incomingShape" link="references/eClassifiers/ElkEdgeSection/references/eStructuralFeatures/incomingShape/index.html">
+                    <mxCell edge="1" parent="1" source="de1a82bf-8ca9-4bc6-82f1-ac95e0a43443" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1" target="3a36f3a8-a5bf-43a4-9a54-7b3cdec385eb">
+                        <mxGeometry as="geometry" relative="1"/>
+                    </mxCell>
+                </object>
+                <object id="19bd9bd2-36d7-481b-921e-4d57bf7064e8" label="sections" link="references/eClassifiers/ElkEdge/references/eStructuralFeatures/sections/index.html">
+                    <mxCell edge="1" parent="1" source="231cdeba-d5f8-4698-a98f-6b8a04d0a837" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1" target="de1a82bf-8ca9-4bc6-82f1-ac95e0a43443">
+                        <mxGeometry as="geometry" relative="1"/>
+                    </mxCell>
+                </object>
+                <object id="78177cfc-a28f-4fde-b9a8-36cca265b7be" label="ElkPort" link="references/eClassifiers/ElkPort/index.html">
+                    <mxCell parent="1" vertex="1">
+                        <mxGeometry as="geometry" height="30.0" width="120.0" x="1520.938115500789" y="331.5470088370788"/>
+                    </mxCell>
+                </object>
+                <object id="99432eb5-b570-41c6-ac21-1206d3f44cdd" label="parent" link="references/eClassifiers/ElkPort/references/eStructuralFeatures/parent/index.html">
+                    <mxCell edge="1" parent="1" source="78177cfc-a28f-4fde-b9a8-36cca265b7be" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1" target="b1f50d74-2fb7-463b-9af4-7aad1e41fd0c">
+                        <mxGeometry as="geometry" relative="1"/>
+                    </mxCell>
+                </object>
+                <mxCell edge="1" id="34c83c5c-6794-402f-89d6-72ca2af29aae" parent="1" source="78177cfc-a28f-4fde-b9a8-36cca265b7be" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;exitX=0.5;exitDx=0.0;exitY=0.0;exitDy=0.0;entryX=0.5;entryDx=0.0;entryY=1.0;entryDy=0.0" target="3a36f3a8-a5bf-43a4-9a54-7b3cdec385eb">
+                    <mxGeometry as="geometry" relative="1"/>
+                </mxCell>
+                <object id="50b1e358-ad6b-4e5d-9705-69c95ecf74b8" label="ports" link="references/eClassifiers/ElkNode/references/eStructuralFeatures/ports/index.html">
+                    <mxCell edge="1" parent="1" source="b1f50d74-2fb7-463b-9af4-7aad1e41fd0c" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1" target="78177cfc-a28f-4fde-b9a8-36cca265b7be">
+                        <mxGeometry as="geometry" relative="1"/>
+                    </mxCell>
+                </object>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

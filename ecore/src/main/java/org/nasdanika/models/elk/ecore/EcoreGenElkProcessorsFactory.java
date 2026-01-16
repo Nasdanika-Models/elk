@@ -170,6 +170,9 @@ public class EcoreGenElkProcessorsFactory {
 						style.put("html", "1");
 						style.put("endArrow", "block");
 						style.put("endFill", "0");
+						
+						inheritance.getExitPoint().setLocation(0.5, 0);
+						inheritance.getEntryPoint().setLocation(0.5, 1);
 					}
 					
 					// Reference
