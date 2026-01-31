@@ -1,570 +1,570 @@
 {
   "references/eClassifiers/ElkBendPoint/references/eStructuralFeatures/x/index.html": {
     "path": "ElkBendPoint/Attributes/x",
-    "link-uuid": "e315b57a-a75a-45b3-93ab-12393b599322",
+    "link-uuid": "db1be8e6-9e97-4ae4-beb4-de0a10bf102d",
     "title": "x",
     "content": "Type EDouble Multiplicity 1",
-    "timestamp": 1767872806575
+    "timestamp": 1768500317561
   },
   "references/eClassifiers/ElkConnectableShape/inheritance.html": {
     "path": "ElkConnectableShape/Inheritance",
-    "link-uuid": "3c1baede-a026-4a53-a875-4f0cd6d452d4",
+    "link-uuid": "621aaf86-c4b2-4835-b17c-e51d78c02a93",
     "title": "Inheritance",
     "content": "Supertypes Subtypes  ",
-    "timestamp": 1767872806602
+    "timestamp": 1768500317589
   },
   "references/eClassifiers/IPropertyHolder/index.html": {
-    "link-uuid": "64898539-ce3b-43e9-848f-3a0349b5e48e",
+    "link-uuid": "bf30d901-7938-4e6e-8c6c-4ddb4ccf3130",
     "title": "IPropertyHolder",
     "content": "Diagram ",
-    "timestamp": 1767872806964
+    "timestamp": 1768500317970
   },
   "references/eClassifiers/IPropertyHolder/references/eOperations/setProperty-0/references/eParameters/value/index.html": {
     "path": "IPropertyHolder/Operations/setProperty/Parameters/value",
-    "link-uuid": "bae5923f-a194-446d-80dd-1fba9f429f23",
+    "link-uuid": "2f752972-6132-4dad-9504-ad64efdb7251",
     "title": "value",
     "content": "Type T Multiplicity 0..1",
-    "timestamp": 1767872807002
+    "timestamp": 1768500318016
   },
   "references/eClassifiers/ElkEdgeSection/references/eStructuralFeatures/startY/index.html": {
     "path": "ElkEdgeSection/Attributes/startY",
-    "link-uuid": "b6397ff6-b243-4170-bc0f-40950814ab8e",
+    "link-uuid": "b731dd21-2c96-49bd-a20e-b179d32f1be3",
     "title": "startY",
     "content": "Type EDouble Multiplicity 0..1",
-    "timestamp": 1767872806736
+    "timestamp": 1768500317733
   },
   "references/eClassifiers/ElkGraphElement/references/eStructuralFeatures/identifier/index.html": {
     "path": "ElkGraphElement/Attributes/identifier",
-    "link-uuid": "0514d302-14c4-4626-ba7f-3fbcbd4d15f2",
+    "link-uuid": "2db46c78-37b6-41ee-b213-81560fb5c24e",
     "title": "identifier",
     "content": "Type EString Multiplicity 0..1",
-    "timestamp": 1767872806764
+    "timestamp": 1768500317764
   },
   "references/eClassifiers/ElkPort/references/eStructuralFeatures/parent/index.html": {
     "path": "ElkPort/References/parent",
-    "link-uuid": "a8aaa944-c33d-4ade-8547-e3f4c2c7b059",
+    "link-uuid": "1765f4d8-af57-4624-8cb8-a997c1d1b6ed",
     "title": "parent",
     "content": "Type ElkNode Multiplicity 0..1",
-    "timestamp": 1767872806859
+    "timestamp": 1768500317860
   },
   "references/eClassifiers/IPropertyHolder/references/eOperations/getProperty-1/references/eParameters/property/index.html": {
     "path": "IPropertyHolder/Operations/getProperty/Parameters/property",
-    "link-uuid": "f6860dc4-84a0-42bb-a06b-75e19b561f39",
+    "link-uuid": "219f8067-d202-479a-aa6e-3e54951fea3a",
     "title": "property",
     "content": "Type IProperty&lt;T&gt; Multiplicity 0..1",
-    "timestamp": 1767872806986
+    "timestamp": 1768500317993
   },
   "references/eClassifiers/ElkShape/references/eStructuralFeatures/width/index.html": {
     "path": "ElkShape/Attributes/width",
-    "link-uuid": "24064772-af61-4663-af39-7eecb97a97d5",
+    "link-uuid": "18acc2c8-e87a-479c-83dd-4e2b471d2bf2",
     "title": "width",
     "content": "Type EDouble Multiplicity 1",
-    "timestamp": 1767872806917
+    "timestamp": 1768500317922
   },
   "index.html": {
-    "link-uuid": "e25f60ad-64d2-463b-8e1f-98ae66fd3ebd",
+    "link-uuid": "aa159ee1-7311-4e66-b52e-eb6a2c5dd554",
     "title": "Eclipse Layout Kernel",
     "content": "Sources EMapPropertyHolder ElkEdgeSection IPropertyHolder ElkPort PropertyValue ElkPropertyToValueMapEntry properties ElkLabel IProperty ElkNode ports parent ElkGraphElement labels parent ElkShape ElkEdge containingNode sections containedEdges parent ElkConnectableShape outgoingEdges incomingEdges sources targets outgoingShape incomingShape ElkBendPoint bendPoints Eclipse Layout Kernel",
-    "timestamp": 1767872806537
+    "timestamp": 1768500317518
   },
   "references/eClassifiers/ElkEdge/references/eStructuralFeatures/sources/index.html": {
     "path": "ElkEdge/References/sources",
-    "link-uuid": "656fbbfd-540b-4067-ba59-2b1c50220791",
+    "link-uuid": "24065857-6514-4fb5-9e98-ec1879b4bf84",
     "title": "sources",
     "content": "Type ElkConnectableShape Multiplicity 0..*",
-    "timestamp": 1767872806660
+    "timestamp": 1768500317650
   },
   "references/eClassifiers/ElkShape/references/eStructuralFeatures/y/index.html": {
     "path": "ElkShape/Attributes/y",
-    "link-uuid": "3cf9bc17-d6b0-447d-9e1a-70d8deb12b77",
+    "link-uuid": "b7942b59-26a0-4c01-adde-02ec77779bef",
     "title": "y",
     "content": "Type EDouble Multiplicity 1",
-    "timestamp": 1767872806922
+    "timestamp": 1768500317927
   },
   "references/eClassifiers/IPropertyHolder/references/eOperations/setProperty-0/references/eParameters/property/index.html": {
     "path": "IPropertyHolder/Operations/setProperty/Parameters/property",
-    "link-uuid": "a9852407-548f-4cde-95a7-ef14d341a798",
+    "link-uuid": "1c38a7c6-f0db-4504-b464-2c0bc0b50474",
     "title": "property",
     "content": "Type IPropertyT&gt; Multiplicity 0..1",
-    "timestamp": 1767872807000
+    "timestamp": 1768500318013
   },
   "references/eClassifiers/ElkEdgeSection/references/eOperations/setEndLocation-6/references/eParameters/x/index.html": {
     "path": "ElkEdgeSection/Operations/setEndLocation/Parameters/x",
-    "link-uuid": "659b4144-3d5a-4ccf-9fd9-29962930f2f6",
+    "link-uuid": "0e6d3125-5684-45c8-a691-752d8f0e12a0",
     "title": "x",
     "content": "Type EDouble Multiplicity 0..1",
-    "timestamp": 1767872806698
+    "timestamp": 1768500317692
   },
   "references/eClassifiers/ElkEdge/references/eStructuralFeatures/hierarchical/index.html": {
     "path": "ElkEdge/Attributes/hierarchical",
-    "link-uuid": "3976d3a0-a8d2-4f73-aed8-6a59580a5480",
+    "link-uuid": "9059a31c-35db-4c72-8c98-e1d4920c0c4c",
     "title": "hierarchical",
     "content": "Type EBoolean Multiplicity 0..1",
-    "timestamp": 1767872806649
+    "timestamp": 1768500317638
   },
   "references/eClassifiers/ElkBendPoint/references/eOperations/set-0/references/eParameters/y/index.html": {
     "path": "ElkBendPoint/Operations/set/Parameters/y",
-    "link-uuid": "2bcb4e35-0910-402f-ade7-71a0a47a1f36",
+    "link-uuid": "19e4cc1a-0de8-4614-bbe8-95bb9c833e0f",
     "title": "y",
     "content": "Type EDouble Multiplicity 0..1",
-    "timestamp": 1767872806573
+    "timestamp": 1768500317558
   },
   "references/eClassifiers/ElkEdgeSection/references/eStructuralFeatures/endY/index.html": {
     "path": "ElkEdgeSection/Attributes/endY",
-    "link-uuid": "4d33e1a3-ea4d-4de7-ba9f-c38f094259b1",
+    "link-uuid": "5cf7905a-6b63-4b0c-82bb-afdfad77ab7f",
     "title": "endY",
     "content": "Type EDouble Multiplicity 0..1",
-    "timestamp": 1767872806719
+    "timestamp": 1768500317713
   },
   "references/eClassifiers/ElkShape/references/eStructuralFeatures/height/index.html": {
     "path": "ElkShape/Attributes/height",
-    "link-uuid": "ff0d0b07-481c-457a-a00f-8c6649c0cf46",
+    "link-uuid": "552808f2-b07a-4973-be99-4aff40fdeed2",
     "title": "height",
     "content": "Type EDouble Multiplicity 1",
-    "timestamp": 1767872806915
+    "timestamp": 1768500317920
   },
   "references/eClassifiers/ElkPort/index.html": {
-    "link-uuid": "5d269ef1-5a5b-4633-a4e2-ba39dc217e86",
+    "link-uuid": "f0e06c2f-3d93-4e6f-8b35-274b40bb8987",
     "title": "ElkPort",
     "content": "Diagram ",
-    "timestamp": 1767872806850
+    "timestamp": 1768500317851
   },
   "references/eClassifiers/ElkConnectableShape/index.html": {
-    "link-uuid": "29d41d57-1361-4f94-bd2d-0aebd65733f6",
+    "link-uuid": "824b6b3d-9aac-492a-b0a9-d54503c3f2b7",
     "title": "ElkConnectableShape",
     "content": "Diagram ",
-    "timestamp": 1767872806600
+    "timestamp": 1768500317585
   },
   "references/eClassifiers/ElkEdgeSection/references/eStructuralFeatures/outgoingShape/index.html": {
     "path": "ElkEdgeSection/References/outgoingShape",
-    "link-uuid": "585ed57f-c59b-4813-8c5a-17e47ce6d963",
+    "link-uuid": "70111316-903f-4cc2-a155-678af270c62c",
     "title": "outgoingShape",
     "content": "Type ElkConnectableShape Multiplicity 0..1",
-    "timestamp": 1767872806730
+    "timestamp": 1768500317726
   },
   "references/eClassifiers/ElkLabel/references/eStructuralFeatures/text/index.html": {
     "path": "ElkLabel/Attributes/text",
-    "link-uuid": "4252832e-acdf-4296-b2a4-2d9f9aa686ba",
+    "link-uuid": "2ae8ad4a-d6b2-4a66-97f0-3cff2dd08e4a",
     "title": "text",
     "content": "Type EString Multiplicity 0..1",
-    "timestamp": 1767872806796
+    "timestamp": 1768500317797
   },
   "references/eClassifiers/ElkNode/references/eStructuralFeatures/ports/index.html": {
     "path": "ElkNode/References/ports",
-    "link-uuid": "44059a79-e796-49f6-9bd8-f895f8de9ee7",
+    "link-uuid": "af6a401a-5ecc-46d1-9c97-20449692680e",
     "title": "ports",
     "content": "Type ElkPort Multiplicity 0..*",
-    "timestamp": 1767872806833
+    "timestamp": 1768500317833
   },
   "references/eClassifiers/ElkEdgeSection/references/eStructuralFeatures/incomingSections/index.html": {
     "path": "ElkEdgeSection/References/incomingSections",
-    "link-uuid": "d8e4344a-1b2d-42a0-86a7-ae3dbab2a95e",
+    "link-uuid": "4d41e130-7ce9-4b45-8cb1-b6fe8d0b01aa",
     "title": "incomingSections",
     "content": "Type ElkEdgeSection Multiplicity 0..*",
-    "timestamp": 1767872806723
+    "timestamp": 1768500317718
   },
   "references/eClassifiers/ElkEdgeSection/references/eStructuralFeatures/incomingShape/index.html": {
     "path": "ElkEdgeSection/References/incomingShape",
-    "link-uuid": "aebc3841-5500-4f5a-aecb-fadb5962af95",
+    "link-uuid": "d94ad9e3-7fe9-4d6f-9db7-86e69b69d7d8",
     "title": "incomingShape",
     "content": "Type ElkConnectableShape Multiplicity 0..1",
-    "timestamp": 1767872806725
+    "timestamp": 1768500317720
   },
   "references/eClassifiers/ElkLabel/index.html": {
-    "link-uuid": "2ae6539b-250a-43cb-a72b-b4c26102344e",
+    "link-uuid": "bc330644-e098-4aed-aff4-77176baa0e88",
     "title": "ElkLabel",
     "content": "Diagram ",
-    "timestamp": 1767872806784
+    "timestamp": 1768500317785
   },
   "references/eClassifiers/ElkNode/references/eStructuralFeatures/parent/index.html": {
     "path": "ElkNode/References/parent",
-    "link-uuid": "838a7128-3470-43ac-a9ef-74b8a2577520",
+    "link-uuid": "148969fd-3670-4e04-b80f-3a1e005af4f6",
     "title": "parent",
     "content": "Type ElkNode Multiplicity 0..1",
-    "timestamp": 1767872806831
+    "timestamp": 1768500317831
   },
   "references/eClassifiers/ElkEdgeSection/references/eOperations/setEndLocation-6/references/eParameters/y/index.html": {
     "path": "ElkEdgeSection/Operations/setEndLocation/Parameters/y",
-    "link-uuid": "ce94b080-f9ec-436a-ae27-31508c5139bc",
+    "link-uuid": "ffadf209-c43c-4d82-b459-dbf10669b022",
     "title": "y",
     "content": "Type EDouble Multiplicity 0..1",
-    "timestamp": 1767872806701
+    "timestamp": 1768500317694
   },
   "references/eClassifiers/ElkEdgeSection/references/eStructuralFeatures/bendPoints/index.html": {
     "path": "ElkEdgeSection/References/bendPoints",
-    "link-uuid": "be5b922b-0fa1-438b-b0cf-2f339d88c371",
+    "link-uuid": "2ba38ec0-bb65-4d8c-8b02-2b9ccee9f3f2",
     "title": "bendPoints",
     "content": "Type ElkBendPoint Multiplicity 0..*",
-    "timestamp": 1767872806713
+    "timestamp": 1768500317708
   },
   "references/eClassifiers/ElkShape/references/eStructuralFeatures/x/index.html": {
     "path": "ElkShape/Attributes/x",
-    "link-uuid": "66fa3f4f-123c-4e8c-bbf3-34784a77006a",
+    "link-uuid": "b3a9d1f4-4aee-4eee-9837-5108c6924251",
     "title": "x",
     "content": "Type EDouble Multiplicity 1",
-    "timestamp": 1767872806920
+    "timestamp": 1768500317925
   },
   "references/eClassifiers/ElkPort/inheritance.html": {
     "path": "ElkPort/Inheritance",
-    "link-uuid": "34c9d8a4-9f3e-4738-9209-e25f439e0cae",
+    "link-uuid": "0cbb9733-f366-4238-84b3-6a0c24dd912c",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1767872806853
+    "timestamp": 1768500317853
   },
   "references/eClassifiers/ElkBendPoint/references/eOperations/set-0/references/eParameters/x/index.html": {
     "path": "ElkBendPoint/Operations/set/Parameters/x",
-    "link-uuid": "2cdd7ac9-742d-4ca6-963f-2424d0612474",
+    "link-uuid": "065a15af-af2f-4853-bc1d-c23445a48e67",
     "title": "x",
     "content": "Type EDouble Multiplicity 0..1",
-    "timestamp": 1767872806570
+    "timestamp": 1768500317554
   },
   "references/eClassifiers/ElkBendPoint/references/eStructuralFeatures/y/index.html": {
     "path": "ElkBendPoint/Attributes/y",
-    "link-uuid": "5ad0b085-f8a3-45c0-8b98-9944e757c35a",
+    "link-uuid": "374b2727-397e-462b-9bcc-ff0baf54e45b",
     "title": "y",
     "content": "Type EDouble Multiplicity 1",
-    "timestamp": 1767872806578
+    "timestamp": 1768500317564
   },
   "references/eClassifiers/ElkShape/references/eOperations/setLocation-6/references/eParameters/y/index.html": {
     "path": "ElkShape/Operations/setLocation/Parameters/y",
-    "link-uuid": "6ec67328-9a56-45f4-a67a-8312b8791f4b",
+    "link-uuid": "c9e42b56-483c-4db9-ab11-91dc83fe1cbe",
     "title": "y",
     "content": "Type EDouble Multiplicity 0..1",
-    "timestamp": 1767872806913
+    "timestamp": 1768500317918
   },
   "references/eClassifiers/ElkShape/index.html": {
-    "link-uuid": "e1ecbefd-222f-4260-ab8d-0dcdeec566cc",
+    "link-uuid": "bd5ec6fc-fd60-4ddd-9566-ed94ea37930c",
     "title": "ElkShape",
     "content": "Diagram ",
-    "timestamp": 1767872806892
+    "timestamp": 1768500317896
   },
   "references/eClassifiers/EMapPropertyHolder/index.html": {
-    "link-uuid": "2b462020-c0b5-4740-b8f3-7a4767e4c46a",
+    "link-uuid": "b1dfdd03-d550-4b87-aa1d-e2d1e361a510",
     "title": "EMapPropertyHolder",
     "content": "Diagram ",
-    "timestamp": 1767872806939
+    "timestamp": 1768500317943
   },
   "references/eClassifiers/ElkPropertyToValueMapEntry/references/eStructuralFeatures/value/index.html": {
     "path": "ElkPropertyToValueMapEntry/Attributes/value",
-    "link-uuid": "7e9ce223-0da3-4c67-aed1-1ddffda4c60e",
+    "link-uuid": "49751281-bc9a-4512-a845-3684a7346fc1",
     "title": "value",
     "content": "Type PropertyValue Multiplicity 0..1",
-    "timestamp": 1767872806879
+    "timestamp": 1768500317881
   },
   "references/eClassifiers/EMapPropertyHolder/references/eStructuralFeatures/properties/index.html": {
     "path": "EMapPropertyHolder/References/properties",
-    "link-uuid": "7bda30f8-c1db-4dbd-a51b-398070e9bfe8",
+    "link-uuid": "bf153c12-be56-493f-8c0c-e67361661fa0",
     "title": "properties",
     "content": "Type ElkPropertyToValueMapEntry Multiplicity 0..*",
-    "timestamp": 1767872806945
+    "timestamp": 1768500317950
   },
   "references/eClassifiers/ElkEdge/references/eStructuralFeatures/containingNode/index.html": {
     "path": "ElkEdge/References/containingNode",
-    "link-uuid": "c5349d04-1b85-4ce3-adac-41887463269c",
+    "link-uuid": "330178bb-5cae-4c8d-b930-7e5b1f3f8f87",
     "title": "containingNode",
     "content": "Type ElkNode Multiplicity 0..1",
-    "timestamp": 1767872806646
+    "timestamp": 1768500317636
   },
   "references/eClassifiers/ElkNode/references/eStructuralFeatures/containedEdges/index.html": {
     "path": "ElkNode/References/containedEdges",
-    "link-uuid": "e2e01221-0640-465e-acf6-131c4d9c92fb",
+    "link-uuid": "532aad03-3fb1-4a33-932f-c7bf9257b904",
     "title": "containedEdges",
     "content": "Type ElkEdge Multiplicity 0..*",
-    "timestamp": 1767872806827
+    "timestamp": 1768500317827
   },
   "references/eClassifiers/ElkShape/references/eOperations/setDimensions-5/references/eParameters/height/index.html": {
     "path": "ElkShape/Operations/setDimensions/Parameters/height",
-    "link-uuid": "a493ae4d-3641-4fd8-934e-e07d3817d140",
+    "link-uuid": "37652c16-a487-410b-9a17-37179cb8c13e",
     "title": "height",
     "content": "Type EDouble Multiplicity 0..1",
-    "timestamp": 1767872806903
+    "timestamp": 1768500317908
   },
   "references/eClassifiers/ElkConnectableShape/references/eStructuralFeatures/incomingEdges/index.html": {
     "path": "ElkConnectableShape/References/incomingEdges",
-    "link-uuid": "d0c4eac1-af11-4c57-9cbe-337cc32dc882",
+    "link-uuid": "bec5aec4-1a99-46f8-8dbe-61d6e1f7bf99",
     "title": "incomingEdges",
     "content": "Type ElkEdge Multiplicity 0..*",
-    "timestamp": 1767872806608
+    "timestamp": 1768500317596
   },
   "references/eClassifiers/ElkGraphElement/references/eStructuralFeatures/labels/index.html": {
     "path": "ElkGraphElement/References/labels",
-    "link-uuid": "5b6de6f8-309e-4ebe-9edb-121ad4307f13",
+    "link-uuid": "d612d4df-61c2-48ba-91df-c43408984862",
     "title": "labels",
     "content": "Type ElkLabel Multiplicity 0..*",
-    "timestamp": 1767872806767
+    "timestamp": 1768500317767
   },
   "references/eClassifiers/ElkEdgeSection/references/eStructuralFeatures/outgoingSections/index.html": {
     "path": "ElkEdgeSection/References/outgoingSections",
-    "link-uuid": "7665f1e5-bbb5-4de2-ae40-19f585460fe3",
+    "link-uuid": "f07f8226-3622-4346-b62a-96081ed2c942",
     "title": "outgoingSections",
     "content": "Type ElkEdgeSection Multiplicity 0..*",
-    "timestamp": 1767872806728
+    "timestamp": 1768500317723
   },
   "references/eClassifiers/ElkPropertyToValueMapEntry/index.html": {
-    "link-uuid": "d7966554-f168-4361-850d-13ebb7faf88a",
+    "link-uuid": "0e1f1dcd-430f-4378-9eb9-bca83d4ef396",
     "title": "ElkPropertyToValueMapEntry",
     "content": "Diagram ",
-    "timestamp": 1767872806873
+    "timestamp": 1768500317875
   },
   "references/eClassifiers/ElkEdge/references/eStructuralFeatures/connected/index.html": {
     "path": "ElkEdge/Attributes/connected",
-    "link-uuid": "bfb3f942-fc03-4008-bf24-79d39be67117",
+    "link-uuid": "8f749d46-f99f-4920-ad55-f9dcfd0be884",
     "title": "connected",
     "content": "Type EBoolean Multiplicity 0..1",
-    "timestamp": 1767872806644
+    "timestamp": 1768500317633
   },
   "references/eClassifiers/ElkNode/index.html": {
-    "link-uuid": "640b85f7-67f6-4aed-96e9-49328501845d",
+    "link-uuid": "9da3e253-b712-468e-b431-1e17bd43ea21",
     "title": "ElkNode",
     "content": "Diagram ",
-    "timestamp": 1767872806814
+    "timestamp": 1768500317815
   },
   "references/eClassifiers/ElkEdgeSection/index.html": {
-    "link-uuid": "a9019bee-5988-4bd1-a794-4a1085fde8be",
+    "link-uuid": "c93cf004-d23e-40ff-83bf-e63d8999aaba",
     "title": "ElkEdgeSection",
     "content": "Diagram ",
-    "timestamp": 1767872806685
+    "timestamp": 1768500317676
   },
   "references/eClassifiers/ElkGraphElement/index.html": {
-    "link-uuid": "d5d85459-2c7d-49f7-835f-18111433553a",
+    "link-uuid": "a71d5694-ea6b-4828-aefe-b7e3612c046c",
     "title": "ElkGraphElement",
     "content": "Diagram ",
-    "timestamp": 1767872806757
+    "timestamp": 1768500317756
   },
   "references/eClassifiers/ElkConnectableShape/references/eStructuralFeatures/outgoingEdges/index.html": {
     "path": "ElkConnectableShape/References/outgoingEdges",
-    "link-uuid": "cd44bf89-8ba0-4f0c-af97-1fdaca284c28",
+    "link-uuid": "7340b5c6-cb3e-43cc-b92c-4ce9f8e965e9",
     "title": "outgoingEdges",
     "content": "Type ElkEdge Multiplicity 0..*",
-    "timestamp": 1767872806610
+    "timestamp": 1768500317598
   },
   "references/eClassifiers/ElkEdge/inheritance.html": {
     "path": "ElkEdge/Inheritance",
-    "link-uuid": "d211ca24-6d6b-47bb-b682-5f100390c04a",
+    "link-uuid": "e1d3fc33-c0fc-4853-b357-e06115fb5076",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1767872806636
+    "timestamp": 1768500317624
   },
   "references/eClassifiers/ElkLabel/inheritance.html": {
     "path": "ElkLabel/Inheritance",
-    "link-uuid": "61f1ebd9-b4b2-4575-b4f8-c92b05a06adb",
+    "link-uuid": "e785f94d-e90a-4c4b-a36f-3de3c550cf39",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1767872806786
+    "timestamp": 1768500317787
   },
   "references/eClassifiers/IPropertyHolder/references/eOperations/copyProperties-3/index.html": {
     "path": "IPropertyHolder/Operations/copyProperties",
-    "link-uuid": "65e63553-fddc-4f0d-a63b-65bad35f118c",
+    "link-uuid": "5a7ed8f8-6997-4239-9999-380d64c78007",
     "title": "copyProperties",
     "content": "Type IPropertyHolder Multiplicity 0..1",
-    "timestamp": 1767872806973
+    "timestamp": 1768500317979
   },
   "references/eClassifiers/ElkLabel/references/eStructuralFeatures/parent/index.html": {
     "path": "ElkLabel/References/parent",
-    "link-uuid": "8a48c2eb-f8a1-40e7-a518-6cf70eec55ec",
+    "link-uuid": "3a0efef3-7cf7-468a-8586-3a64d10d38e7",
     "title": "parent",
     "content": "Type ElkGraphElement Multiplicity 0..1",
-    "timestamp": 1767872806793
+    "timestamp": 1768500317794
   },
   "references/eClassifiers/IPropertyHolder/inheritance.html": {
     "path": "IPropertyHolder/Inheritance",
-    "link-uuid": "9ee69342-68e5-42d8-bf1f-407c45a21d1f",
+    "link-uuid": "99b8d91c-fb00-4a31-9fe5-91591fed7347",
     "title": "Inheritance",
     "content": "Subtypes ",
-    "timestamp": 1767872806967
+    "timestamp": 1768500317974
   },
   "references/eClassifiers/ElkNode/references/eStructuralFeatures/children/index.html": {
     "path": "ElkNode/References/children",
-    "link-uuid": "bc5e33cb-3dc8-4eff-8406-fc414276e821",
+    "link-uuid": "2474f0d5-b6e5-4598-89fc-7d688885842f",
     "title": "children",
     "content": "Type ElkNode Multiplicity 0..*",
-    "timestamp": 1767872806825
+    "timestamp": 1768500317825
   },
   "references/eClassifiers/ElkShape/references/eOperations/setLocation-6/references/eParameters/x/index.html": {
     "path": "ElkShape/Operations/setLocation/Parameters/x",
-    "link-uuid": "7445b445-b0c7-4bac-8c61-c7fdac275193",
+    "link-uuid": "3ae2b6b5-ae4e-402b-8b38-0c120185b410",
     "title": "x",
     "content": "Type EDouble Multiplicity 0..1",
-    "timestamp": 1767872806911
+    "timestamp": 1768500317916
   },
   "references/eClassifiers/ElkNode/inheritance.html": {
     "path": "ElkNode/Inheritance",
-    "link-uuid": "4103a3bb-6633-42d1-9051-09701c083dde",
+    "link-uuid": "85de76bf-940e-45db-9f06-2e34f111e7bc",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1767872806816
+    "timestamp": 1768500317817
   },
   "references/eClassifiers/ElkEdgeSection/references/eStructuralFeatures/startX/index.html": {
     "path": "ElkEdgeSection/Attributes/startX",
-    "link-uuid": "871437a6-d222-49d1-8bba-605b98b06393",
+    "link-uuid": "813f7628-5528-4cb4-a627-98cc41464461",
     "title": "startX",
     "content": "Type EDouble Multiplicity 0..1",
-    "timestamp": 1767872806734
+    "timestamp": 1768500317731
   },
   "references/eClassifiers/ElkBendPoint/index.html": {
-    "link-uuid": "449667b9-c497-413b-af52-a130012f3b3d",
+    "link-uuid": "97654709-c14c-40ef-ae20-111d38d76c36",
     "title": "ElkBendPoint",
     "content": "Diagram ",
-    "timestamp": 1767872806555
+    "timestamp": 1768500317538
   },
   "references/eClassifiers/EMapPropertyHolder/inheritance.html": {
     "path": "EMapPropertyHolder/Inheritance",
-    "link-uuid": "74be24b4-b611-4e32-8d03-9fe06d46995f",
+    "link-uuid": "f11258c4-2023-402f-9560-7e579866be67",
     "title": "Inheritance",
     "content": "Supertypes Subtypes  ",
-    "timestamp": 1767872806941
+    "timestamp": 1768500317945
   },
   "references/eClassifiers/ElkNode/references/eStructuralFeatures/hierarchical/index.html": {
     "path": "ElkNode/Attributes/hierarchical",
-    "link-uuid": "1db7b66d-dcb9-41b3-b011-b950e6289092",
+    "link-uuid": "b64735bc-185b-48db-a63b-05bb0d3ed625",
     "title": "hierarchical",
     "content": "Type EBoolean Multiplicity 0..1",
-    "timestamp": 1767872806829
+    "timestamp": 1768500317829
   },
   "references/eClassifiers/IPropertyHolder/references/eOperations/setProperty-0/index.html": {
     "path": "IPropertyHolder/Operations/setProperty",
-    "link-uuid": "fe9160da-56a6-40d4-9a31-cba1db53ea71",
+    "link-uuid": "dda52dd5-35b8-4f37-85ac-98110bcdb33d",
     "title": "setProperty",
     "content": "Type IPropertyHolder Multiplicity 0..1",
-    "timestamp": 1767872806996
+    "timestamp": 1768500318004
   },
   "references/eClassifiers/ElkGraphElement/inheritance.html": {
     "path": "ElkGraphElement/Inheritance",
-    "link-uuid": "7183199d-ce28-4e8e-8b42-ea57fccdd8ff",
+    "link-uuid": "ef78ca29-e926-4414-876c-87fa09caf94e",
     "title": "Inheritance",
     "content": "Supertypes Subtypes  ",
-    "timestamp": 1767872806759
+    "timestamp": 1768500317758
   },
   "references/eClassifiers/IPropertyHolder/references/eOperations/getProperty-1/index.html": {
     "path": "IPropertyHolder/Operations/getProperty",
-    "link-uuid": "7a6782a8-52ea-4a81-a03d-028cd4bed693",
+    "link-uuid": "da995a41-b2f3-4376-a34b-9d23971d0f5e",
     "title": "getProperty",
     "content": "Type T Multiplicity 0..1",
-    "timestamp": 1767872806981
+    "timestamp": 1768500317988
   },
   "references/eClassifiers/ElkEdge/references/eStructuralFeatures/targets/index.html": {
     "path": "ElkEdge/References/targets",
-    "link-uuid": "300d6436-9279-40cc-9468-09410b9cacd0",
+    "link-uuid": "a189fb3d-0527-42e1-ac53-f69725bfb149",
     "title": "targets",
     "content": "Type ElkConnectableShape Multiplicity 0..*",
-    "timestamp": 1767872806662
+    "timestamp": 1768500317653
   },
   "references/eClassifiers/IPropertyHolder/references/eOperations/hasProperty-2/index.html": {
     "path": "IPropertyHolder/Operations/hasProperty",
-    "link-uuid": "c05d3bf1-f862-4672-8a8d-a0775e52d77b",
+    "link-uuid": "53da9226-d7df-4e2f-b9e2-ce6be3d29222",
     "title": "hasProperty",
     "content": "Type EBoolean Multiplicity 0..1",
-    "timestamp": 1767872806990
+    "timestamp": 1768500317997
   },
   "references/eClassifiers/ElkEdge/references/eStructuralFeatures/hyperedge/index.html": {
     "path": "ElkEdge/Attributes/hyperedge",
-    "link-uuid": "428586f8-1c96-4a20-8f77-d19b0e8db0c9",
+    "link-uuid": "3e5d8cdd-2d63-49b4-a71a-96aefa7b9c12",
     "title": "hyperedge",
     "content": "Type EBoolean Multiplicity 0..1",
-    "timestamp": 1767872806652
+    "timestamp": 1768500317641
   },
   "references/eClassifiers/ElkEdgeSection/references/eStructuralFeatures/endX/index.html": {
     "path": "ElkEdgeSection/Attributes/endX",
-    "link-uuid": "c7cca877-0b47-438a-bb90-a35588904291",
+    "link-uuid": "18385200-eb60-440f-bc89-d3a351793fc7",
     "title": "endX",
     "content": "Type EDouble Multiplicity 0..1",
-    "timestamp": 1767872806716
+    "timestamp": 1768500317711
   },
   "references/eClassifiers/ElkShape/inheritance.html": {
     "path": "ElkShape/Inheritance",
-    "link-uuid": "74fb9584-847d-4ecd-9bab-cb468c4a4065",
+    "link-uuid": "52af6f0d-bf2d-45e9-8f9f-17560710ceee",
     "title": "Inheritance",
     "content": "Supertypes Subtypes  ",
-    "timestamp": 1767872806894
+    "timestamp": 1768500317898
   },
   "references/eClassifiers/ElkEdgeSection/references/eOperations/setStartLocation-5/references/eParameters/x/index.html": {
     "path": "ElkEdgeSection/Operations/setStartLocation/Parameters/x",
-    "link-uuid": "16929139-0dbb-447e-ac0a-04951f49df07",
+    "link-uuid": "dc4ddb6c-c1e5-4c1d-95be-90723bc7b9ca",
     "title": "x",
     "content": "Type EDouble Multiplicity 0..1",
-    "timestamp": 1767872806708
+    "timestamp": 1768500317703
   },
   "references/eClassifiers/IPropertyHolder/references/eOperations/getAllProperties-4/index.html": {
     "path": "IPropertyHolder/Operations/getAllProperties",
-    "link-uuid": "6f302d4d-4f5d-4036-b8bb-97cbdaafffae",
+    "link-uuid": "06f833a4-d4b1-42ea-8909-cb08fe95f081",
     "title": "getAllProperties",
     "content": "Type EMap&lt; IProperty, EJavaObject&gt; Multiplicity 0..1",
-    "timestamp": 1767872806979
+    "timestamp": 1768500317986
   },
   "references/eClassifiers/ElkPropertyToValueMapEntry/references/eStructuralFeatures/key/index.html": {
     "path": "ElkPropertyToValueMapEntry/Attributes/key",
-    "link-uuid": "2af2bc5d-babf-418e-8e03-542bb0ad275c",
+    "link-uuid": "7f5b1d30-b6ff-40a2-b309-2eb6e72ebdb3",
     "title": "key",
     "content": "Type IProperty Multiplicity 0..1",
-    "timestamp": 1767872806877
+    "timestamp": 1768500317879
   },
   "references/eClassifiers/ElkEdgeSection/references/eStructuralFeatures/identifier/index.html": {
     "path": "ElkEdgeSection/Attributes/identifier",
-    "link-uuid": "78fef3a2-56ad-4e35-a8bd-e2bfdf1bfb05",
+    "link-uuid": "c64629c6-cde2-4abb-8bd3-89bf4c6ec96e",
     "title": "identifier",
     "content": "Type EString Multiplicity 0..1",
-    "timestamp": 1767872806720
+    "timestamp": 1768500317716
   },
   "references/eClassifiers/ElkShape/references/eOperations/setDimensions-5/references/eParameters/width/index.html": {
     "path": "ElkShape/Operations/setDimensions/Parameters/width",
-    "link-uuid": "b8e380d0-caff-4b99-b438-a0d256489ea4",
+    "link-uuid": "7492b4a1-0e7e-4f87-99fc-fad60aef8763",
     "title": "width",
     "content": "Type EDouble Multiplicity 0..1",
-    "timestamp": 1767872806905
+    "timestamp": 1768500317910
   },
   "references/eClassifiers/ElkEdgeSection/references/eStructuralFeatures/parent/index.html": {
     "path": "ElkEdgeSection/References/parent",
-    "link-uuid": "3800c0a3-1794-4525-9dcc-692ed27afd0a",
+    "link-uuid": "108efacd-888e-41d7-a4f6-b6103678e3e8",
     "title": "parent",
     "content": "Type ElkEdge Multiplicity 0..1",
-    "timestamp": 1767872806732
+    "timestamp": 1768500317729
   },
   "references/eClassifiers/IPropertyHolder/references/eOperations/hasProperty-2/references/eParameters/property/index.html": {
     "path": "IPropertyHolder/Operations/hasProperty/Parameters/property",
-    "link-uuid": "3f3a47db-67af-4aba-a7b1-3eef57033f28",
+    "link-uuid": "a6a9d454-8bd4-4b53-9cd5-fb044485937f",
     "title": "property",
     "content": "Type IProperty Multiplicity 0..1",
-    "timestamp": 1767872806994
+    "timestamp": 1768500318002
   },
   "references/eClassifiers/IPropertyHolder/references/eOperations/copyProperties-3/references/eParameters/source/index.html": {
     "path": "IPropertyHolder/Operations/copyProperties/Parameters/source",
-    "link-uuid": "d704c018-3123-486f-a9f1-71fd4c9907e2",
+    "link-uuid": "a207e8f4-874b-4870-a437-04e0ef54b96e",
     "title": "source",
     "content": "Type IPropertyHolder Multiplicity 0..1",
-    "timestamp": 1767872806977
+    "timestamp": 1768500317983
   },
   "references/eClassifiers/ElkEdge/references/eStructuralFeatures/selfloop/index.html": {
     "path": "ElkEdge/Attributes/selfloop",
-    "link-uuid": "c692dbe7-83e3-432d-8b11-8390eb555c28",
+    "link-uuid": "b117dbce-d1ec-4d2c-a3f5-10d2d87229b4",
     "title": "selfloop",
     "content": "Type EBoolean Multiplicity 0..1",
-    "timestamp": 1767872806657
+    "timestamp": 1768500317647
   },
   "references/eClassifiers/ElkEdgeSection/inheritance.html": {
     "path": "ElkEdgeSection/Inheritance",
-    "link-uuid": "3ff582e3-77f1-4e08-b75c-998bcbe87ac7",
+    "link-uuid": "65deaa95-4595-4b56-b5f9-abbb83bfd27b",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1767872806687
+    "timestamp": 1768500317678
   },
   "references/eClassifiers/ElkEdge/index.html": {
-    "link-uuid": "44ac4369-2c86-471a-90aa-6364ade72518",
+    "link-uuid": "28138e07-5b4e-459f-acaa-980aaf38ab9b",
     "title": "ElkEdge",
     "content": "Diagram ",
-    "timestamp": 1767872806634
+    "timestamp": 1768500317621
   },
   "references/eClassifiers/ElkEdge/references/eStructuralFeatures/sections/index.html": {
     "path": "ElkEdge/References/sections",
-    "link-uuid": "6f169e27-087c-48b2-a79b-8696af10add3",
+    "link-uuid": "43f72c9a-e9f4-4fe1-9e64-7f980fdf4def",
     "title": "sections",
     "content": "Type ElkEdgeSection Multiplicity 0..*",
-    "timestamp": 1767872806655
+    "timestamp": 1768500317644
   },
   "references/eClassifiers/ElkEdgeSection/references/eOperations/setStartLocation-5/references/eParameters/y/index.html": {
     "path": "ElkEdgeSection/Operations/setStartLocation/Parameters/y",
-    "link-uuid": "8b84a37b-7ec5-4b9c-90e0-afc6542c673a",
+    "link-uuid": "c14acc66-4611-48b4-990e-f1d70aa1d12d",
     "title": "y",
     "content": "Type EDouble Multiplicity 0..1",
-    "timestamp": 1767872806711
+    "timestamp": 1768500317705
   }
 }

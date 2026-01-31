@@ -19,12 +19,15 @@ import org.nasdanika.common.Context;
 import org.nasdanika.common.NasdanikaException;
 import org.nasdanika.common.ProgressMonitor;
 import org.nasdanika.drawio.Connection;
+import org.nasdanika.drawio.ConnectionPoint;
 import org.nasdanika.drawio.Document;
 import org.nasdanika.drawio.Layer;
 import org.nasdanika.drawio.Model;
 import org.nasdanika.drawio.Node;
 import org.nasdanika.drawio.Page;
 import org.nasdanika.drawio.Root;
+import org.nasdanika.drawio.style.Arrow;
+import org.nasdanika.drawio.style.ConnectionStyle;
 import org.nasdanika.graph.emf.EObjectNode;
 import org.nasdanika.graph.processor.NodeProcessorConfig;
 import org.nasdanika.models.app.Action;
@@ -161,18 +164,19 @@ public class EcoreGenElkProcessorsFactory {
 					// Supertype
 					if (getTarget().getESuperTypes().contains(targetEClassifier)) {
 						// TODO - connect top center of the sub-class to the bottom center of super-class
-						Connection inheritance = layer.createConnection(diagramNode, targetNode);
-						Map<String, String> style = inheritance.getStyle();
+
+						ConnectionPoint sourceConnectionPoint = diagramNode.createConnectionPoint(0.5, 0);
+						ConnectionPoint targetConnectionPoint = targetNode.createConnectionPoint(0.5, 1);
+						
+						Connection inheritance = layer.createConnection(sourceConnectionPoint, targetConnectionPoint);
+						ConnectionStyle style = inheritance.getStyle();
 						style.put("edgeStyle", "orthogonalEdgeStyle");
 						style.put("rounded", "0");
 						style.put("orthogonalLoop", "1");
 						style.put("jettySize", "auto");
 						style.put("html", "1");
-						style.put("endArrow", "block");
-						style.put("endFill", "0");
-						
-						inheritance.getExitPoint().setLocation(0.5, 0);
-						inheritance.getEntryPoint().setLocation(0.5, 1);
+						style.endArrowEnum(Arrow.BLOCK);
+						style.put("endFill", "0");						
 					}
 					
 					// Reference
