@@ -82,29 +82,33 @@ public class DrawioElkGraphFactory {
 		
 		for (ConnectionPoint connectionPoint: node.getConnectionPoints()) {
 			ElkPort elkPort = ElkGraphUtil.createPort(elkNode);
+			double x = connectionPoint.getX();
+			double y = connectionPoint.getY();
+			double dx = connectionPoint.getDx();
+			double dy = connectionPoint.getDy();
 			elkPort.setIdentifier("%f,%f,%f,%f,%b".formatted(
-					connectionPoint.getX(), 
-					connectionPoint.getY(),
-					connectionPoint.getDx(), 
-					connectionPoint.getDy(),
+					x, 
+					y,
+					dx, 
+					dy,
 					connectionPoint.isPerimeter()));
 			
-			elkPort.setDimensions(getPortSize(), getPortSize());
-			double portX = elkNode.getWidth() * connectionPoint.getX() + connectionPoint.getDx() - getPortSize() / 2;
-			double portY = elkNode.getHeight() * connectionPoint.getY() + connectionPoint.getDy() - getPortSize() / 2;
+			double portSize = getPortSize();
+			elkPort.setDimensions(portSize, portSize);
+			double portX = elkNode.getWidth() * x + dx - portSize / 2;
+			double portY = elkNode.getHeight() * y + dy - portSize / 2;
 			elkPort.setLocation(portX, portY);
 			PortSide portSide = PortSide.NORTH;
-			if (connectionPoint.getY() == 0.0) {
+			if (y <= 0) {
 				portSide = PortSide.NORTH;
-			} else if (connectionPoint.getY() == 1.0) {
+			} else if (y >= 1.0) {
 				portSide = PortSide.SOUTH;
-			} else if (connectionPoint.getX() == 0.0) {
+			} else if (x <= 0) {
 				portSide = PortSide.WEST;
-			} else if (connectionPoint.getX() == 1.0) {
+			} else if (x >= 1.0) {
 				portSide = PortSide.EAST;
 			}
-			elkPort.setProperty(CoreOptions.PORT_SIDE, portSide);
-			
+			elkPort.setProperty(CoreOptions.PORT_SIDE, portSide);		
 		}
 		
 		return elkNode;

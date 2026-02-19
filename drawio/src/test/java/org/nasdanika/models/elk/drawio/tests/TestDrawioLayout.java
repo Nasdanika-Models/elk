@@ -50,6 +50,36 @@ import org.yaml.snakeyaml.Yaml;
 
 public class TestDrawioLayout {
 	
+//	{
+//		  "elk.algorithm": "org.eclipse.elk.layered",
+//
+//		  "elk.direction": "RIGHT",
+//		  "elk.hierarchyHandling": "INCLUDE_CHILDREN",
+//
+//		  "elk.spacing.nodeNode": 30,
+//		  "elk.spacing.nodeNodeBetweenLayers": 40,
+//		  "elk.spacing.edgeNode": 15,
+//		  "elk.spacing.edgeEdge": 15,
+//
+//		  "elk.portConstraints": "FIXED_ORDER",
+//		  "elk.portAlignment.default": "CENTER",
+//
+//		  "elk.edgeRouting": "ORTHOGONAL",
+//		  "elk.layered.edgeRouting": "ORTHOGONAL",
+//		  "elk.layered.mergeEdges": false,
+//
+//		  "elk.layered.layering.strategy": "NETWORK_SIMPLEX",
+//
+//		  "elk.layered.nodePlacement.strategy": "BRANDES_KOEPF",
+//		  "elk.layered.nodePlacement.favorStraightEdges": true,
+//
+//		  "elk.layered.crossingMinimization.strategy": "LAYER_SWEEP",
+//		  "elk.layered.crossingMinimization.semiInteractive": false,
+//
+//		  "elk.edgeLabels.inline": false,
+//		  "elk.edgeLabels.placement": "CENTER"
+//		}	
+	
 	public static JSONObject TREE_CONFIG = new JSONObject("""
 	        {
 	        	  "algorithm": "org.eclipse.elk.mrtree",
@@ -77,6 +107,7 @@ public class TestDrawioLayout {
 	  "direction": "DOWN",
 
 	  "hierarchyHandling": "INCLUDE_CHILDREN",
+	  "portConstraints": "FIXED_SIDE",
 
 	  "layered.spacing.nodeNodeBetweenLayers": 50,
 	  "spacing.nodeNode": 150,
