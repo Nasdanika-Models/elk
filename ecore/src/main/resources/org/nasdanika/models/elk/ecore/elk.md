@@ -5,18 +5,19 @@ elk.drawio
 * [Sources](https://github.com/Nasdanika-Models/elk)    
 
 
-# Nasdanika ELK ↔ Draw.io Integration — Quick Guide
+## ELK ↔ Draw.io Integration
 
-This document explains how to integrate ELK layout with Draw.io model objects using the Nasdanika helper code (examples drawn from `TestDrawioLayout.java`). It shows how to generate a small diagram, apply ELK layout options and tune spacing (including setting node spacing to 150 px).
+This section explains how to integrate ELK layout with Draw.io model objects using the Nasdanika helper code (examples drawn from `TestDrawioLayout.java`).
+It shows how to generate a small diagram, apply ELK layout options and tune spacing (including setting node spacing to 150 px).
 
-## Summary / contract
+### Summary / contract
 
 - Inputs: a `Document` composed of `Page` → `Layer` → `Node` and `Connection` elements (Nasdanika drawio model).
 - Outputs: a Draw.io XML string saved to `target/generated.drawio` (and an XMI layout snapshot optionally).
 - Error modes: unknown ELK option keys will be logged; if ELK option parsing fails, the `LayoutMetaDataService`/`LayoutOptionData` will indicate unknown keys.
 - Success criteria: layout engine returns non-zero graph size and node geometries are updated on Draw.io nodes.
 
-## Contents
+### Contents
 - Quickstart
 - Configuring ELK options (set spacing to 150 px)
 - `applyLayoutOptions` helper (how it works + debug)
@@ -25,7 +26,7 @@ This document explains how to integrate ELK layout with Draw.io model objects us
 
 ---
 
-## Quickstart (core flow)
+### Quickstart (core flow)
 
 1. Build a small drawio `Document` (pages, layers, nodes, connections).
 2. Convert Nasdanika drawio model to ELK graph elements via `DrawioElkGraphFactory` + `Transformer`.
@@ -89,7 +90,7 @@ engine.layout(pageGraph, new BasicProgressMonitor());
 
 ---
 
-## Configuration: set spacing to 150 px (layered algorithm)
+### Configuration: set spacing to 150 px (layered algorithm)
 
 ELK option keys are namespaced. For layered algorithm options you need to set the layered-prefixed keys so that they resolve to `org.eclipse.elk.layered.*` keys.
 
@@ -128,7 +129,7 @@ Measurement:
 
 ---
 
-## `applyLayoutOptions` helper — how it works
+### `applyLayoutOptions` helper — how it works
 
 `applyLayoutOptions(ElkNode graph, Map<String,Object> config)` concatenates `"org.eclipse.elk." + key` and asks `LayoutMetaDataService` for `LayoutOptionData`. It parses the string value into the typed option value and sets the property on the graph.
 
@@ -155,7 +156,7 @@ Important:
 
 ---
 
-## Debugging / verifying options (recommended temporary changes)
+### Debugging / verifying options (recommended temporary changes)
 
 To make sure ELK accepted your spacing setting, temporarily augment `applyLayoutOptions` with debug prints:
 
@@ -186,7 +187,7 @@ If you see `Unknown ELK option: org.eclipse.elk.layered.spacing.nodeNode`, the o
 
 ---
 
-## Run the test and inspect the result
+### Run the test and inspect the result
 
 From the module root that contains the test, run the test class (example using Maven). Replace path/redirection as appropriate for your project root.
 
@@ -203,7 +204,7 @@ What to inspect:
 
 ---
 
-## Troubleshooting / tips
+### Troubleshooting / tips
 
 - Option key names:
   - For layered-specific options use the `layered.*` prefix in your map so `applyLayoutOptions` produces `org.eclipse.elk.layered.*`.
@@ -221,18 +222,9 @@ What to inspect:
 
 ---
 
-## Examples in the repo (where to look)
+### Examples in the repo (where to look)
 
 - `TestDrawioLayout.java` contains:
   - `LAYERED_CONFIG_MAP` — shows a real config you can reuse.
   - `applyLayoutOptions` — the canonical helper.
   - Test cases: `testGenerateAndLayout()` and `testGenerateAndLayoutConnectionPoints()` — full end-to-end examples (create nodes, connections, transform, layout, copy back geometry, save).
-
----
-
-## Next steps you can ask me to do
-- Add the debug prints into `applyLayoutOptions` and run the test, then paste the relevant console output.
-- Run the `testGenerateAndLayout` in your workspace and attach `target/generated.drawio` so you can inspect it visually.
-- Tune more layout parameters (margins, port constraints, nodePlacement settings) if the 150 px spacing still needs adjusting.
-
-Tell me which of the above you'd like me to run next and I will execute it.
