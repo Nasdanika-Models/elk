@@ -52,16 +52,14 @@ public class EcoreGenElkProcessorsFactory {
 	
 	@EPackageNodeProcessorFactory(
 			label = "Eclipse Layout Kernel",
-			documentation =  """
-				
-				```drawio-resource
-				elk.drawio
-				```
-				
-				* [Sources](https://github.com/Nasdanika-Models/elk)	
-				
-				
-				"""
+			actionPrototype = """
+                app-action:
+                  content:
+                    content-markdown:
+                      source:
+                        content-resource:
+                          location: elk.md
+			    """
 	)
 	public EPackageNodeProcessor createEPackageProcessor(
 			NodeProcessorConfig<WidgetFactory, WidgetFactory, Object> config, 
