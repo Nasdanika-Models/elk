@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.nasdanika.models.elk</groupId>
 	<artifactId>parent</artifactId>
-	<version>2026.2.0</version>
+	<version>2026.1.0</version>
 	<packaging>pom</packaging>
 	<name>Eclipse Layout Kernel</name>
 	<description>Eclipse Layout Kernel model documentation generator and Nasdanika extensions</description>
