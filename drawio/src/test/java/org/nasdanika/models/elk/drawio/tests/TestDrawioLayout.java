@@ -436,7 +436,7 @@ public class TestDrawioLayout {
 		// Add connection
 		
 		ConnectionPoint sourceConnectionPoint = source.createConnectionPoint(0.5, 1);				
-		ConnectionPoint targetConnectionPoint = target.createConnectionPoint();
+		ConnectionPoint targetConnectionPoint = target.createConnectionPoint(0, 0.33);
 		
 		Connection connection = newLayer.createConnection(
 				sourceConnectionPoint, 
@@ -454,8 +454,6 @@ public class TestDrawioLayout {
 			.dashed("1")
 			.width("2")
 			.color("#0077ff");
-		
-		targetConnectionPoint.setLocation(0, 0.33);		
 		
 		Node connectionLabel = connection.createNode();
 		connectionLabel.setLabel("Connection label");

@@ -173,7 +173,7 @@ public class EcoreGenElkProcessorsFactory {
 						style.put("orthogonalLoop", "1");
 						style.put("jettySize", "auto");
 						style.put("html", "1");
-						style.endArrowEnum(Arrow.BLOCK);
+						style.endArrow(Arrow.BLOCK);
 						style.put("endFill", "0");						
 					}
 					
